@@ -18,10 +18,6 @@
     text-transform: uppercase;
     margin: 4rem 0rem 1.5rem 0rem;
 }
-.portfolio h1 span{
-    text-transform: none;
-    font-size: 18px;
-}
 .inner-portfolio-container{
     display: flex;
     justify-content: center;
