@@ -115,4 +115,23 @@
         padding: 10px 20px 10px 20px;
     }
 }
+@media only screen and (max-width: 440px){
+    .about-msg h1{
+        padding-left: 15px;
+    }
+    .about-msg p{
+        font-size: 20px;
+        text-align: left;
+        margin: 0px 0px 10px 0px;
+    }
+    .about-inner-container img{
+        margin-top: 30%;
+        height: 250px;
+        width: 250px;
+    } 
+    .about-msg2 .services-btn a{
+        font-size: 18px;
+        padding: 10px 20px 10px 20px;
+    }
+}
 /*responsive about css end*/
