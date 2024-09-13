@@ -1,0 +1,206 @@
+
+/*services css start*/
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/10.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.services-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    max-width: 1400px;
+    margin: 0% 15% 0% 15%;
+    padding: 20px;
+}
+.services-inner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services-heading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0rem 1rem 1rem 1rem;
+}
+.services-heading h1{
+    text-align: left;
+    color: black;
+    font-size: 35px;
+}
+.service-points1 i{
+    color: var(--brand--color--2);
+}
+.services-heading i{
+    font-size: 40px;
+}
+.service-points-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: black;
+    margin: 1.5rem;
+}
+.service-points1{
+    margin: 0rem 1.5rem 0rem 1.5rem;
+}
+.service-points2{
+    margin: 4.5rem 1.5rem 0rem 3rem;
+}
+.service-points3{
+    margin: 10.5rem 1.5rem 0rem 1.5rem;
+}
+.service-points1 h2{
+    font-size: 26px;
+    color: black; 
+    margin-left: 15px;  
+}
+.service-points2 h2{
+    font-size: 26px;
+    color: black;
+    margin-left: 10px; 
+}
+.service-points3 h2{
+    font-size: 28px;
+    color: black;
+    margin-left: 10px;
+}
+.service-points1 i{
+    color: var(--brand--color--1);
+    font-size: 26px;
+}
+.service-points2 i{
+    color: var(--brand--color--1);
+    font-size: 28px;
+}
+.service-points3 i{
+    color: var(--brand--color--1);
+    font-size: 28px;
+}
+.service-points1 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.service-points2 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.service-points3 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.service-points .ui-icons img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 1.5rem;
+}
+.service-points3 .flutter-icon img{
+    height: 28px;
+    width: 115px;
+    margin-bottom: 2rem;
+}
+.portfolio-link{
+    display: flex;
+    width: 100%;
+    margin: 1.5rem;
+    justify-content: flex-end;
+}
+.portfolio-link h2 a{
+    font-size: 30px;
+    color: var(--brand--color--1);
+    margin: 1.5rem 0rem 6rem 1.5rem;
+}
+/*services css end*/
+
+/*responsive services css start*/
+@media only screen and (max-width: 1210px){
+    .services-heading{
+        justify-content: center;
+    }
+    .services-heading h1{
+        font-size: 30px;
+    }
+    .service-points-container{
+        flex-direction: column;
+    }
+    .service-points1{
+        margin: 0rem 0rem 0rem 0rem;
+    }
+    .service-points2{
+        margin: 0rem 0rem 0rem 0rem;
+    }
+    .service-points3{
+        margin: 0rem 0rem 0rem 0rem;
+    }  
+
+}
+@media only screen and (max-width: 840px){
+    .services{
+        height: 1150px;
+    }
+    .services-heading{
+        margin: 0rem 0rem 1.5rem 0rem;
+    }
+    .services-heading h1{
+        font-size: 26px;
+        text-align: center;
+    }
+    .services-div{
+        margin: 0% 3% 0% 3%;
+    }
+    .services-inner-container{  
+        padding: 10px;
+        margin: 0% 0% 0% 0%;
+    }
+    .service-points-container{
+        margin: 0% 2% 0% 2%;
+    }
+    .service-points .ui-icons img{
+        height: 30px;
+        width: 30px;
+    }
+    .service-points .flutter-icon img{
+        height: 28px;
+        width: 115px;
+    }
+    .portfolio-link{
+        justify-content: flex-start;
+        margin: 3rem 0rem 0rem 4rem;
+    }
+    .portfolio-link h2 a{
+        font-size: 20px;
+    }
+    .service-points1 h2{
+        font-size: 24px;
+    }
+    .service-points2 h2{
+        font-size: 24px;
+    }
+    .service-points3 h2{
+        font-size: 24px;
+    }
+    .service-points1 i{
+        font-size: 24px;
+    }
+    .service-points2 i{
+        font-size: 24px;
+    }
+    .service-points3 i{
+        font-size: 24px;
+    }
+}
+/*responsive services css end*/

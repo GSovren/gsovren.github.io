@@ -1,0 +1,118 @@
+
+/*about css start*/
+.about{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/6.png);  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.about-inner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 15% 0% 15%;
+}
+.about-msg a{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: var(--brand--color--1);  
+    margin-left: 10px;
+}
+.about-inner-container img{
+    margin: 15px 25px 30px 25px;
+    height: 450px;
+    width: 450px;
+}
+.about-msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding: 20px 5px 35px 5px;
+    margin: 0px 20px 10px 30px;
+        
+}
+.about-msg h1{
+    display: flex;
+    width: 100%;
+    text-transform: none;
+    text-align: left;
+    font-size: 40px;
+    color: #031c2c;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+.about-msg i{
+    color: var(--brand--color--1);
+}
+.about-msg p{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10px;  
+    max-width: 900px;  
+}
+.about-msg p span{
+    color: var(--brand--color--3);
+    font-weight: 600;
+}
+/*about css end*/
+
+/*responsive about css start*/
+@media only screen and (max-width: 1140px) {
+    .about{
+        height: 100vh;
+    }
+    .about-inner-container{
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+    .about-msg{
+        margin: 30px 10px 30px 10px;
+    }
+    .about-msg a{
+        font-size: 26px;
+    }
+    .about h1{
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+    .about-msg p{
+        font-size: 20px;
+        text-align: center;
+        padding: 8px;
+    }
+}
+@media only screen and (max-width: 840px){
+    .about{
+        height: 100vh;
+    }
+    .about-inner-container{
+        margin: 0% 3% 0% 3%;
+    }
+    .about-msg h1{
+        padding-left: 15px;
+    }
+    .about-msg p{
+        font-size: 20px;
+        text-align: left;
+        margin: 0px 0px 10px 0px;
+    }
+    .about-inner-container img{
+        height: 300px;
+        width: 300px;
+    } 
+    .about-msg2 .services-btn a{
+        font-size: 18px;
+        padding: 10px 20px 10px 20px;
+    }
+}
+/*responsive about css end*/
