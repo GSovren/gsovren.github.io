@@ -93,7 +93,7 @@
 }
 @media only screen and (max-width: 840px){
     .about2{
-        height: 100vh;
+        height: 900px;
     }
     .about-inner-container2{
         margin: 0% 3% 0% 3%;
@@ -107,11 +107,11 @@
         margin: 0px 0px 10px 0px;
     }
     .about-inner-container2 img{
-        margin: 10px 0px 5% 0px;
+        margin: 10px 0px 0px 0px;
         height: 300px;
         width: 300px;
     }
-} 
+}  
 @media only screen and (max-width: 440px){ 
     .about-inner-container2 img{
         margin: 30% 0px 10% 0px;
