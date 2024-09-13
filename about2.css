@@ -111,5 +111,16 @@
         height: 300px;
         width: 300px;
     }
-}   
+} 
+@media only screen and (max-width: 440px){ 
+    .about-inner-container2 img{
+        margin: 30% 0px 0px 0px;
+        height: 300px;
+        width: 300px;
+    }
+    .about2-msg2 .services-btn a{
+        font-size: 18px;
+        padding: 10px 20px 10px 20px;
+    }
+} 
 /*responsive about css end*/
