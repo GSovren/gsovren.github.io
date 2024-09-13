@@ -264,12 +264,16 @@
 
                 <div class="contact-form">
                     <h3>Enquieries</h3>
-                    <form action="https://formsubmit.co/stewart.ngozo69@gmail.com" method="post">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="24762fa4-255f-4fa4-addc-f4f341b07b96"> 
                         <input type="hidden" name="_subject" value="New email Portfolio Website!">
-                        <input type="text"  placeholder="Full Name" required> <br>
-                        <input type="email"  placeholder="Email" required> <br>
-                        <textarea name="" id="" rows="5" placeholder="leave a message..."></textarea>
-                        <button type="submit">Send</button>
+                        <input type="text" id="name" placeholder="Full Name" required> <br>
+                        <input type="email" id="email" name="email"  placeholder="Email" required> <br>
+                        <textarea name="message" id="textarea" rows="5" placeholder="leave a message..." required></textarea>
+                        <btn-div>
+                            <button type="submit">Send</button>&nbsp;&nbsp;
+                            <button type="button" onclick="clearForm()">Clear</button>
+                        </btn-div>
                     </form><br>
                      
                 </div>
@@ -283,6 +287,15 @@
     <!--Copryright end-->
 
 <script src="lightbox-plus-jquery.min.js"></script>
+<script>
+    function clearForm() {
+        document.getElementById('name').value='';
+        document.getElementById('email').value='';
+        document.getElementById('textarea').value='';
+    }
+</script>
+    
+
 
 </body>
 </html>
