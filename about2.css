@@ -114,7 +114,7 @@
 } 
 @media only screen and (max-width: 440px){ 
     .about-inner-container2 img{
-        margin: 30% 0px 0px 0px;
+        margin: 30% 0px 10% 0px;
         height: 300px;
         width: 300px;
     }
