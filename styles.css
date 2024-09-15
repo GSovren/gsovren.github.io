@@ -214,6 +214,10 @@ body{
     .download-cv{
         padding: 0% 8% 0% 8%;
     }
+     .download-cv a{
+        font-size: 18px;
+        padding: 10px 15px 10px 15px; 
+    }
     .download-cv p{
         text-align: center;
         font-size: 18px;
