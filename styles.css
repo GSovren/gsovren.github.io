@@ -182,15 +182,15 @@ body{
     color: var(--brand--color--2);
     font-size: 24px;
     font-weight: 400;
-    margin: 10px;
+    margin: 10px 0px;
 }
 .download-btn{
-    margin-top: 20px 0px;
+    margin: 20px 10px;
 }
 .download-btn a{
     cursor: pointer;
     color: black;
-    background-color: var(--brand--color--3);
+    background-color: var(--brand--color--1);
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     border-style: solid;
