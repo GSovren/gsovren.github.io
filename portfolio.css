@@ -42,8 +42,8 @@
 .web1 img{
     cursor: pointer;
     margin: 0px 30px 10px 30px;
-    height: 340px;
-    width: 265px;
+    height: 200px;
+    width: 300px;
     transition: .4s;
 }
 .web1 img:hover{
