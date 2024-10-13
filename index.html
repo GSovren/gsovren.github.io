@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="about2.css">
     <link rel="stylesheet" href="services.css">
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="portfolio mockup.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="lightbox.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +42,7 @@
                                     <a href="#home">Home</a>
                                     <a href="#about">About</a>
                                     <a href="#services">Services</a>
-                                    <a href="#portfolio">Portfolio</a>
+                                    <a href="#portfolio-mockup">Portfolio</a>
                                     <a href="#contact">Contact</a>
                                 </ul>
                                 <div class="cv-link">
@@ -153,7 +154,7 @@
                             </div>
                         </div>
                         <div class="portfolio-link">
-                            <h2><a href="#portfolio">View Portfolio<i class="ri-corner-right-down-fill"></i></a></h2>
+                            <h2><a href="#portfolio-mockup">View Portfolio<i class="ri-corner-right-down-fill"></i></a></h2>
                         </div>
                     </div>
                 </div>
@@ -161,122 +162,199 @@
         </div>
         <!--Services end-->
 
-        <!--Portfolio start-->
-        <div class="portfolio" id="portfolio">
-            <h1>Websites</h1>
-            <div class="inner-portfolio-container">
-                <div class="web1">
-                    <a href="images/Web.png" data-lightbox="projects" data-title="Marketing Website UI">
-                        <img src="images/Web.png" alt="">
-                    </a>
-                    <h2>Marketing Website UI</h2>
-                    <div class="prototype-btn">
+        <!--Portfolio mock up start-->
+        <div class="portfolio-mockup" id="portfolio-mockup">
+            <h2>Portfolio Gallery</h2>
+
+            <div class="portfolio-menu">
+                <a href="#" class="menu-btn" data-filter="all">All</a>
+                <a href="#" class="menu-btn" data-filter="logo">Logo Designs</a>
+                <a href="#" class="menu-btn" data-filter="web">Website Designs</a>
+                <a href="#" class="menu-btn" data-filter="mobile">Mobile Apps</a>     
+            </div>
+
+            <div class="box" id="portfolio-projects">
+
+                <div class="portfolio-project logo">
+                    <div class="project-l">
+                        <a href="images/logo1.png" data-lightbox="projects" data-title="">
+                            <img src="images/logo1.png" class="portfolio-img" alt="">
+                            <div class="img-overlay">
+                                <div>Logo Design</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-project logo">
+                    <div class="project-l">
+                        <a href="images/logo4.png" data-lightbox="projects" data-title="">
+                            <img src="images/logo4.png" class="portfolio-img" alt="">
+                        </a>
+                        <div class="img-overlay">
+                            <div>Logo Design</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-project logo">
+                    <div class="project-l">
+                        <a href="images/logo2.png" data-lightbox="projects" data-title="">
+                            <img src="images/logo2.png" class="portfolio-img" alt="">
+                        </a>
+                        <div class="img-overlay">
+                            <div>Logo Design</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-project logo">
+                    <div class="project-l">
+                        <a href="images/logo3.png" data-lightbox="projects" data-title="">
+                            <img src="images/logo3.png" class="portfolio-img" alt="">
+                            <div class="img-overlay">
+                                <div>Logo Design</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-project logo">
+                    <div class="project-l">
+                        <a href="images/logo5.png" data-lightbox="projects" data-title="">
+                            <img src="images/logo5.png" class="portfolio-img" alt="">
+                            <div class="img-overlay">
+                                <div>Logo Design</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-project web">
+                    <div class="project-w">
+                        <a href="images/Web.png" data-lightbox="projects" data-title="">
+                            <img src="images/Web.png" class="portfolio-img" alt="">
+                            <div class="img-overlay">
+                                <div>Markecting Website UI</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="prototype-link">
                         <a href="https://xd.adobe.com/view/9bbdaa03-3973-4d82-8bf4-dd3ba1255426-ceee/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
                     </div>
                 </div>
-                <div class="web1">
-                    <a href="images/Web1.png" data-lightbox="projects" data-title="e-Commerce Website UI">
-                        <img src="images/Web1.png" alt="">
-                    </a>
-                    <h2>e-Commerce Website UI</h2>
-                    <div class="prototype-btn">
+
+                <div class="portfolio-project web">
+                    <div class="project-w">
+                        <a href="images/Web1.png" data-lightbox="projects" data-title="">
+                            <img src="images/Web1.png" class="portfolio-img" alt="">
+                            <div class="img-overlay">
+                                <div>Fashion Website UI</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="prototype-link">
                         <a href="https://xd.adobe.com/view/f7a763c8-5ef8-41e2-b3d5-d5c415a0a25f-a2f4/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
                     </div>
                 </div>
-                <div class="web1">
-                    <a href="images/Web2.png" data-lightbox="projects" data-title="Blog Website UI">
-                        <img src="images/Web2.png" alt="">
-                    </a>
-                    <h2>Blog Website UI</h2>
-                    <div class="prototype-btn">
+
+                <div class="portfolio-project web">
+                    <div class="project-w">
+                        <a href="images/Web2.png" data-lightbox="projects" data-title="">
+                            <img src="images/Web2.png" class="portfolio-img" alt="">
+                            <div class="img-overlay">
+                                <div>Blog Website UI</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="prototype-link">
                         <a href="https://xd.adobe.com/view/344b5db5-488c-4bff-94bf-d8f211fd0b87-6118/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
                     </div>
+                </div>      
+                
+                <div class="portfolio-project web">
+                    <div class="project-w">
+                        <a href="images/Dash1.png" data-lightbox="projects" data-title="">
+                            <img src="images/Dash1.png" class="portfolio-img" alt="">
+                            <div class="img-overlay">
+                                <div>Admin Dashboard <br> React.js</div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <h1>Mobile Apps</h1>
-            <div class="inner-portfolio-container">
-                <div class="web-mobile">
-                    <a href="images/Mobile 1.png" data-lightbox="projects" data-title="e-Learning App UI">
-                        <img src="images/Mobile 1.png" alt="">
-                    </a>
-                    <h2>e-Learning App UI</h2>
-                    <div class="prototype-btn-mobile">
+
+                <div class="portfolio-project web">
+                    <div class="project-w">
+                        <a href="images/CRUDPHP1.png" data-lightbox="projects" data-title="">
+                            <img src="images/CrudPHP1.png" class="portfolio-img" alt="">
+                            <div class="img-overlay">
+                                <div>PHP CRUD <br> Application</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-project mobile">
+                    <div class="project-m">
+                        <a href="images/Mobile 1.png" data-lightbox="projects" data-title="">
+                            <img src="images/Mobile 1.png" class="portfolio-img" alt="">
+                            <div class="img-overlay">
+                                <div>Mobile UI</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="prototype-link-m">
                         <a href="https://xd.adobe.com/view/83c663a4-a744-4600-a49c-fe6566f27588-d695/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
                     </div>
                 </div>
-                <div class="web-mobile">
-                    <a href="images/Mobile 3.png" data-lightbox="projects" data-title="e-Learning App UI">
-                        <img src="images/Mobile 3.png" alt="">
-                    </a>
-                    <h2>e-Learning App UI</h2>
-                    <div class="prototype-btn-mobile">
+
+                <div class="portfolio-project mobile">
+                    <div class="project-m">
+                        <a href="images/Mobile 3.png" data-lightbox="projects" data-title="">
+                            <img src="images/Mobile 3.png" class="portfolio-img" alt="">
+                            <div class="img-overlay">
+                                <div>Mobile UI</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="prototype-link-m">
                         <a href="https://xd.adobe.com/view/83c663a4-a744-4600-a49c-fe6566f27588-d695/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
                     </div>
                 </div>
-                <div class="web-mobile">
-                    <a href="images/Mobile 2.png" data-lightbox="projects" data-title="e-Commerce App UI">
-                        <img src="images/Mobile 2.png" alt="">
-                    </a>
-                    <h2>e-Commerce App UI</h2>
-                    <div class="prototype-btn-mobile">
+
+
+                <div class="portfolio-project mobile">
+                    <div class="project-m">
+                        <a href="images/Mobile 2.png" data-lightbox="projects" data-title="">
+                            <img src="images/Mobile 2.png" class="portfolio-img" alt="">
+                            <div class="img-overlay">
+                                <div>Mobile UI</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="prototype-link-m">
                         <a href="https://xd.adobe.com/view/b722371f-3b5e-4789-b91f-06d677127c6d-e271/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
                     </div>
                 </div>
-                <div class="web-mobile">
-                    <a href="images/Mobile 4.png" data-lightbox="projects" data-title="e-Commerce App UI">
-                        <img src="images/Mobile 4.png" alt="">
-                    </a>
-                    <h2>e-Commerce App UI</h2>
-                    <div class="prototype-btn-mobile">
+
+
+                <div class="portfolio-project mobile">
+                    <div class="project-m">
+                        <a href="images/Mobile 4.png" data-lightbox="projects" data-title="">
+                            <img src="images/Mobile 4.png" class="portfolio-img" alt="">
+                            <div class="img-overlay">
+                                <div>Mobile UI</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="prototype-link-m">
                         <a href="https://xd.adobe.com/view/b722371f-3b5e-4789-b91f-06d677127c6d-e271/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
                     </div>
                 </div>
+
             </div>
-            <h1>Admin Dashboard</h1>
-            <div class="inner-portfolio-container">
-                <div class="web3">
-                    <a href="images/Dash1.png" data-lightbox="projects" data-title="User Managment system">
-                        <img src="images/Dash1.png" alt="">
-                    </a>
-                    <h2>Revenue Tracking <br>(React.js, DummyJSON API data)</h2><br>
-                </div>
-                <div class="web3">
-                    <a href="images/Dash2.png" data-lightbox="projects" data-title="Inventory Management">
-                        <img src="images/Dash2.png" alt="">
-                    </a>
-                    <h2>Inventory Management <br> (React.js, Antd UI library)</h2><br>
-                </div>
-                <div class="web3">
-                    <a href="images/Dash3.png" data-lightbox="projects" data-title="Customer & Order Notifications">
-                        <img src="images/Dash3.png" alt="">
-                    </a>
-                    <h2>Customer & Order Notifications<br>(React.js, Antd UI library)</h2><br>
-                </div>
-            </div><br>
-            <h1>Simple CRUD Application</h1>
-            <div class="inner-portfolio-container">
-                <div class="web3">
-                    <a href="images/CrudPHP1.png" data-lightbox="projects" data-title="User Managment system">
-                        <img src="images/CrudPHP1.png" alt="">
-                    </a>
-                    <h2>User Managment system <br>(php/bootstrap css)</h2><br>
-                </div>
-                <div class="web3">
-                    <a href="images/CrudPHP3.png" data-lightbox="projects" data-title="Read, Add or Delete Users">
-                        <img src="images/CrudPHP3.png" alt="">
-                    </a>
-                    <h2>Add or Delete Users <br> (php/bootsrap css)</h2><br>
-                </div>
-                <div class="web3">
-                    <a href="images/CrudPHP2.png" data-lightbox="projects" data-title="Update User data & Save changes">
-                        <img src="images/CrudPHP2.png" alt="">
-                    </a>
-                    <h2>Update User data & Save changes<br>(php/bootsrap css)</h2><br>
-                </div>
-            </div><br>  
         </div>
-        
-        <!--Portfolio end-->
+        <!--Portfolio mockup end-->
 
         <!--Download CV start-->
         <div class="download-cv">
