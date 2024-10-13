@@ -1,0 +1,133 @@
+
+.portfolio-mockup{
+    background-color: var(--brand--color--2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem auto;
+    margin: 4rem 0rem;
+}
+
+.portfolio-mockup h2{
+    color: black;
+    margin: 20px 0px 10px 0px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.portfolio-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+
+.portfolio-menu a{
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    margin: 2px;
+    color: var(--brand--color--2);
+    background-color: var(--brand--color--1);
+    border-radius: 5px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.portfolio-project{
+    margin: 0.5rem;
+}
+.project-w{
+    position: relative;
+    width: 350px;
+}
+.project-w img{
+    width: 100%;
+    height: 225px;
+    display: block;
+    box-shadow: 6px 7px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--brand--color--3);
+    transition: .4s;
+}
+.img-overlay{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 130, 230, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--brand--color--2);
+    opacity: 0;
+    transition: .4s;
+}
+.prototype-link{
+    padding: 5px;
+    color: var(--brand--color--2);
+    background-color: var(--brand--color--1);
+}
+.prototype-link a{
+    font-size: 20px;
+    color: var(--brand--color--2);
+}
+.prototype-link-m{
+    padding: 5px;
+    color: var(--brand--color--2);
+    background-color: var(--brand--color--1);
+}
+.prototype-link-m a{
+    font-size: 14px;
+    color: var(--brand--color--2);
+}
+.img-overlay:hover{
+    opacity: 1;
+    transition: .4s;
+}
+
+
+.project-l{
+    position: relative;
+    width: 250px;
+}
+.project-l img{
+    width: 250px;
+    height: 225px;
+    display: block;
+    box-shadow: 6px 7px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--brand--color--3);
+    transition: .4s;
+}
+
+
+.project-m{
+    position: relative;
+    width: 125px;
+}
+.project-m img{
+    width: 125px;
+    height: 225px;
+    display: block;
+    box-shadow: 6px 7px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--brand--color--3);
+    transition: .4s;
+}
