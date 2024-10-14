@@ -36,7 +36,10 @@
     background-color: var(--brand--color--1);
     border-radius: 5px;
 }
-
+.portfolio-menu a:hover{
+    background-color: var(--brand--color--3);
+    transition: .4s;
+}
 .box{
     display: flex;
     flex-direction: row;
@@ -86,6 +89,10 @@
     color: var(--brand--color--2);
     background-color: var(--brand--color--1);
 }
+.prototype-link:hover{
+    background-color: var(--brand--color--3);
+    transition: .4s;
+}
 .prototype-link a{
     font-size: 20px;
     color: var(--brand--color--2);
@@ -94,6 +101,10 @@
     padding: 5px;
     color: var(--brand--color--2);
     background-color: var(--brand--color--1);
+}
+.prototype-link-m:hover{
+    background-color: var(--brand--color--3);
+    transition: .4s;
 }
 .prototype-link-m a{
     font-size: 14px;
