@@ -39,7 +39,7 @@
                             </div>
                             <div class="links-container">
                                 <ul class="nav-links">
-                                    <a href="#home">Home</a>
+                                    <span><a href="#home">Home</a></span>
                                     <a href="#about">About</a>
                                     <a href="#services">Services</a>
                                     <a href="#portfolio-mockup">Portfolio</a>
@@ -64,9 +64,14 @@
 
         <!--Hero start-->
         <div class="hero" id="home">
+
+            <video autoplay loop muted plays-inline class="background-clip">
+                <source src="images/Web-Background (2).mp4" type="video/mp4">
+            </video>
+
             <div class="image-overlay">
                 <div class="inner-hero-container">
-                    <h1>Software Developer</h1><br>
+                    <h1><span class="auto-type"></span></h1><br>
                     <div class="greet-msg">
                         <p>Welcome to my site. I'm <span>Stewart Ngozo</span>,
                             a Software developer who specializes in web-oriented design and development for both large and small scale businesses.
@@ -91,12 +96,11 @@
                             In general, all projects undergo a design phase before moving onto development or implementation. 
                             With a natural eye for graphic design and a major in <span>Software Engineering</span>, 
                             I develop both functional and aesthetically pleasing web projects.
-                            
                              
                             </p><br>
                             <h2><a href="#about2">Continue<i class="ri-corner-right-down-fill"></i></a></h2>
                     </div>
-                    <img src="images/Portrait 4.png" alt="">
+                    <img src="images/ProfilePicture.png" alt="">
                 </div>
         </div>
         <!--About end-->
@@ -104,12 +108,13 @@
         <!--About start-->
         <div class="about2" id="about2">
                 <div class="about-inner-container2">
-                    <img src="images/Tech_stack-current.png" alt="">
+                    <img src="images/Tech_stack2.png" alt="">
                     <div class="about-msg2">
                         <h1>What Can You Expect<br>
                             From Me?</h1><br>
                         <p>Open communication, insightful interactions, attention to detail, and all round <span>positive energy</span>.
-                            I'm capable of designing and developing responsive web systems using React.js, PHP/Laravel or Python web frameworks.
+                            I'm capable of designing and developing responsive web systems using React.js or Vue.js web framworks,
+                             and then connecting with a backend database for storage and processing.
                             </p><br>
                         <div class="services-btn">
                             <a href="#services">Services</a>
@@ -131,9 +136,9 @@
                         <div class="service-points-container">
                             <div class="service-points1">
                                 <h2>&nbsp;&nbsp;UI/UX Design&nbsp;<i class="ri-checkbox-circle-line"></i></h2><br>
-                                <p>- Graphic Design<br><br>
-                                    - Web UI/UX Design<br><br>
+                                <p>- Web UI/UX Design<br><br>
                                     - Mobile UI/UX Design<br><br>
+                                    - Dashboard Design<br><br>
                                     - Interactive Prototyping<br><br>
                                 </p>
                             </div><br><br>
@@ -158,9 +163,126 @@
                         </div>
                     </div>
                 </div>
-          
         </div>
         <!--Services end-->
+
+        <!--Portfolio start
+        <div class="portfolio" id="portfolio">
+            <h1>Websites</h1>
+            <div class="inner-portfolio-container">
+                <div class="web1">
+                    <a href="images/Web.png" data-lightbox="projects" data-title="Marketing Website UI">
+                        <img src="images/Web.png" alt="">
+                    </a>
+                    <h2>Marketing Website UI</h2>
+                    <div class="prototype-btn">
+                        <a href="https://xd.adobe.com/view/1d6fde48-2512-4825-8871-2ee65d4fc1f8-483c/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
+                    </div>
+                </div>
+                <div class="web1">
+                    <a href="images/Web1.png" data-lightbox="projects" data-title="e-Commerce Website UI">
+                        <img src="images/Web1.png" alt="">
+                    </a>
+                    <h2>e-Commerce Website UI</h2>
+                    <div class="prototype-btn">
+                        <a href="https://xd.adobe.com/view/af1768bd-0ffa-4fc1-9476-a29b9b0b2d75-fa44/?fullscreen" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
+                    </div>
+                </div>
+                <div class="web1">
+                    <a href="images/Web2.png" data-lightbox="projects" data-title="Blog Website UI">
+                        <img src="images/Web2.png" alt="">
+                    </a>
+                    <h2>Blog Website UI</h2>
+                    <div class="prototype-btn">
+                        <a href="https://xd.adobe.com/view/63b4066f-a6ca-43e0-b7bd-c044a799a044-36e7/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
+                    </div>
+                </div>
+            </div>
+            <h1>Mobile Apps</h1>
+            <div class="inner-portfolio-container">
+                <div class="web-mobile">
+                    <a href="images/Mobile 1.png" data-lightbox="projects" data-title="Marketing Website UI">
+                        <img src="images/Mobile 1.png" alt="">
+                    </a>
+                    <h2>e-Learning App UI</h2>
+                    <div class="prototype-btn-mobile">
+                        <a href="https://xd.adobe.com/view/1d6fde48-2512-4825-8871-2ee65d4fc1f8-483c/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
+                    </div>
+                </div>
+                <div class="web-mobile">
+                    <a href="images/Mobile 3.png" data-lightbox="projects" data-title="e-Commerce Website UI">
+                        <img src="images/Mobile 3.png" alt="">
+                    </a>
+                    <h2>e-Learning App UI</h2>
+                    <div class="prototype-btn-mobile">
+                        <a href="https://xd.adobe.com/view/af1768bd-0ffa-4fc1-9476-a29b9b0b2d75-fa44/?fullscreen" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
+                    </div>
+                </div>
+                <div class="web-mobile">
+                    <a href="images/Mobile 2.png" data-lightbox="projects" data-title="Blog Website UI">
+                        <img src="images/Mobile 2.png" alt="">
+                    </a>
+                    <h2>e-Commerce App UI</h2>
+                    <div class="prototype-btn-mobile">
+                        <a href="https://xd.adobe.com/view/63b4066f-a6ca-43e0-b7bd-c044a799a044-36e7/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
+                    </div>
+                </div>
+                <div class="web-mobile">
+                    <a href="images/Mobile 4.png" data-lightbox="projects" data-title="Blog Website UI">
+                        <img src="images/Mobile 4.png" alt="">
+                    </a>
+                    <h2>e-Commerce App UI</h2>
+                    <div class="prototype-btn-mobile">
+                        <a href="https://xd.adobe.com/view/63b4066f-a6ca-43e0-b7bd-c044a799a044-36e7/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
+                    </div>
+                </div>
+            </div>
+            <h1>Admin Dashboard</h1>
+            <div class="inner-portfolio-container">
+                <div class="web3">
+                    <a href="images/Dash1.png" data-lightbox="projects" data-title="User Managment system">
+                        <img src="images/Dash1.png" alt="">
+                    </a>
+                    <h2>Revenue Tracking <br>(React.js, DummyJSON API data)</h2><br>
+                </div>
+                <div class="web3">
+                    <a href="images/Dash2.png" data-lightbox="projects" data-title="Inventory Management">
+                        <img src="images/Dash2.png" alt="">
+                    </a>
+                    <h2>Inventory Management <br> (React.js, Antd UI library)</h2><br>
+                </div>
+                <div class="web3">
+                    <a href="images/Dash3.png" data-lightbox="projects" data-title="Customer & Order Notifications">
+                        <img src="images/Dash3.png" alt="">
+                    </a>
+                    <h2>Customer & Order Notifications<br>(React.js, Antd UI library)</h2><br>
+                </div>
+            </div><br>
+            <h1>Simple CRUD Application</h1>
+            <div class="inner-portfolio-container">
+                <div class="web3">
+                    <a href="images/CrudPHP1.png" data-lightbox="projects" data-title="User Managment system">
+                        <img src="images/CrudPHP1.png" alt="">
+                    </a>
+                    <h2>User Managment system <br>(php/bootstrap css)</h2><br>
+                </div>
+                <div class="web3">
+                    <a href="images/CrudPHP3.png" data-lightbox="projects" data-title="Read, Add or Delete Users">
+                        <img src="images/CrudPHP3.png" alt="">
+                    </a>
+                    <h2>Add or Delete Users <br> (php/bootsrap css)</h2><br>
+                </div>
+                <div class="web3">
+                    <a href="images/CrudPHP2.png" data-lightbox="projects" data-title="Update User data & Save changes">
+                        <img src="images/CrudPHP2.png" alt="">
+                    </a>
+                    <h2>Update User data & Save changes<br>(php/bootsrap css)</h2><br>
+                </div>
+            </div><br>                      
+        </div>
+        Portfolio end-->
+
+
 
         <!--Portfolio mock up start-->
         <div class="portfolio-mockup" id="portfolio-mockup">
@@ -191,8 +313,8 @@
                         <a href="images/logo4.png" data-lightbox="projects" data-title="">
                             <img src="images/logo4.png" class="portfolio-img" alt="">
                             <div class="img-overlay">
-                            <div>Logo Design</div>
-                        </div>
+                                <div>Logo Design</div>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -202,8 +324,8 @@
                         <a href="images/logo2.png" data-lightbox="projects" data-title="">
                             <img src="images/logo2.png" class="portfolio-img" alt="">
                             <div class="img-overlay">
-                            <div>Logo Design</div>
-                        </div>
+                                <div>Logo Design</div>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -271,7 +393,7 @@
                         <a href="https://xd.adobe.com/view/344b5db5-488c-4bff-94bf-d8f211fd0b87-6118/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
                     </div>
                 </div>   
-
+                
                 <div class="portfolio-project mobile">
                     <div class="project-m">
                         <a href="images/Mobile 1.png" data-lightbox="projects" data-title="">
@@ -314,6 +436,7 @@
                         <a href="https://xd.adobe.com/view/b722371f-3b5e-4789-b91f-06d677127c6d-e271/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
                     </div>
                 </div>
+
 
                 <div class="portfolio-project mobile">
                     <div class="project-m">
@@ -367,7 +490,7 @@
                         <a href="images/CRUDPHP1.png" data-lightbox="projects" data-title="">
                             <img src="images/CrudPHP1.png" class="portfolio-img" alt="">
                             <div class="img-overlay">
-                                <div>CRUD App, User Management <br> (php/bootstrap css)</div>
+                                <div>CRUD App, User Managment <br> (php/bootstrap css)</div>
                             </div>
                         </a>
                     </div>
@@ -394,9 +517,13 @@
                         </a>
                     </div>
                 </div>
+
             </div>
         </div>
         <!--Portfolio mockup end-->
+
+
+
 
         <!--Download CV start-->
         <div class="download-cv">
@@ -444,9 +571,19 @@
         <p><i class="ri-copyright-line"></i>&nbsp;Copyright 2024 - Stewart Ngozo</p>
     </div>
     <!--Copryright end-->
-    
+
 <script src="app.js"></script>
 <script src="lightbox-plus-jquery.min.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script>
+    var typed = new Typed(".auto-type", {
+        strings : ["SOFTWARE ENGINEER", "UI/UX DESIGNER", "GRAPHIC DESIGNER"],
+        typeSpeed : 100,
+        backSpeed : 50,
+        loop :  true
+    })
+</script>
 <script>
     function clearForm() {
         document.getElementById('name').value='';
