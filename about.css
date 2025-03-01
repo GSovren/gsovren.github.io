@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3% 15% 0% 15%;
+    margin: 3% 13% 0% 13%;
 }
 .about-msg a{
     display: flex;
@@ -26,9 +26,9 @@
     margin-left: 10px;
 }
 .about-inner-container img{
-    margin: 15px 25px 30px 25px;
-    height: 450px;
-    width: 450px;
+    margin: 15px 25px 10px 25px;
+    height: 480px;
+    width: 480px;
 }
 .about-msg{
     display: flex;
@@ -63,6 +63,12 @@
     color: var(--brand--color--3);
     font-weight: 600;
 }
+.about-msg a{
+    font-size: 25px;
+}
+.about-msg h2{
+    padding: 0px;
+}
 /*about css end*/
 
 /*responsive about css start*/
@@ -82,8 +88,7 @@
     }
     .about h1{
         font-size: 30px;
-        justify-content: center;
-        text-align: center;
+        text-align: left;
     }
     .about-msg p{
         font-size: 20px;
@@ -96,10 +101,10 @@
         height: 100vh;
     }
     .about-inner-container{
-        margin: 0% 3% 0% 3%;
+        margin: 0% 5% 0% 5%;
     }
     .about-msg h1{
-        padding-left: 15px;
+        padding-left: 0px;
     }
     .about-msg p{
         font-size: 20px;
@@ -126,8 +131,8 @@
     }
     .about-inner-container img{
         margin-top: 30%;
-        height: 250px;
-        width: 250px;
+        height: 280px;
+        width: 280px;
     } 
     .about-msg2 .services-btn a{
         font-size: 18px;
