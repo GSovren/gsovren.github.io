@@ -64,7 +64,7 @@
     cursor: pointer;
     color: var(--brand--color--2);
     font-size: 22px;
-    padding: 10px 35px 10px 35px;
+    padding: 15px 35px 15px 35px;
     background-color: var(--brand--color--1);
     border-radius: 8px;
     margin-top: 0px;
@@ -112,10 +112,6 @@
         margin: 10px 0px 0px 0px;
         height: 300px;
         width: 300px;
-    }
-    .about-msg2 .services-btn{
-        justify-content: flex-start;
-        padding-left: 10px;
     }
 }  
 @media only screen and (max-width: 440px){ 
