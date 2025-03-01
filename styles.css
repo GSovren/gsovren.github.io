@@ -48,7 +48,7 @@ body{
 .brand-logo img{
     cursor: pointer;
     width: 170px;
-    height: 70px;
+    height: 65px;
 }
 .links-container{
     display: flex;
@@ -56,8 +56,18 @@ body{
 .nav-links a{   
     font-size: 18px;
     color: black;
-    padding: 10px 15px 10px 1cap    ;
+    padding: 10px 15px 10px 1cap;
     border-radius: 5px;
+}
+.nav-links span{
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    background-color: var(--brand--color--1);
+    color: var(--brand--color--2);
+}
+.nav-links span a{
+    color: var(--brand--color--2);
 }
 .nav-links a:hover,
 .nav-links a:focus{
@@ -147,7 +157,7 @@ body{
         margin: 0px 3px 0px 3px;
     }
     .links-container .cv-link{
-        margin: 8px;
+        margin: 10px 3px 0px 3px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -183,10 +193,10 @@ body{
     color: var(--brand--color--2);
     font-size: 24px;
     font-weight: 400;
-    margin: 10px 0px;
+    margin: 10px;
 }
 .download-btn{
-    margin: 20px 10px;
+    margin: 20px 0px;
 }
 .download-btn a{
     cursor: pointer;
@@ -196,7 +206,7 @@ body{
     padding: 10px 20px 10px 20px;
     border-style: solid;
     border-width: 2px;
-    border-color: aqua;
+    border-color: var(--brand--color--3);
     border-radius: 8px;
 }
 .download-btn i{
@@ -215,7 +225,7 @@ body{
     .download-cv{
         padding: 0% 8% 0% 8%;
     }
-     .download-cv a{
+    .download-cv a{
         font-size: 18px;
         padding: 10px 15px 10px 15px; 
     }
