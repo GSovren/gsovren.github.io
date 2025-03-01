@@ -120,7 +120,7 @@
     justify-content: flex-end;
 }
 .portfolio-link h2 a{
-    font-size: 30px;
+    font-size: 25px;
     color: var(--brand--color--1);
     margin: 1.5rem 0rem 6rem 1.5rem;
 }
@@ -182,7 +182,7 @@
         margin: 3rem 0rem 0rem 4rem;
     }
     .portfolio-link h2 a{
-        font-size: 26px;
+        font-size: 28px;
     }
     .service-points1 h2{
         font-size: 24px;
