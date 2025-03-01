@@ -14,7 +14,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 3% 15% 0% 15%;
+    margin: 3% 16% 0% 16%;
+    width: 100%;
 }
 .about-inner-container2 img{
     margin: 0px 0px 30px 25px;
@@ -27,6 +28,7 @@
     justify-content: center;
     align-items: center;
     text-align: center; 
+    width: 100%;
 }
 .about-msg2 h1{
     display: flex;
@@ -46,7 +48,7 @@
     text-align: center;
     font-size: 20px;
     margin-bottom: 10px;  
-    max-width: 600px;  
+    width: 100%;  
 }
 .about-msg2 p span{
     font-weight: 600;
@@ -61,8 +63,8 @@
     display: flex;
     cursor: pointer;
     color: var(--brand--color--2);
-    font-size: 20px;
-    padding: 15px 30px 15px 30px;
+    font-size: 22px;
+    padding: 10px 35px 10px 35px;
     background-color: var(--brand--color--1);
     border-radius: 8px;
     margin-top: 0px;
@@ -96,7 +98,7 @@
         height: 900px;
     }
     .about-inner-container2{
-        margin: 0% 3% 0% 3%;
+        margin: 0% 8% 0% 8%;
     }
     .about-msg2 h1{ 
         text-align: center;
@@ -110,6 +112,10 @@
         margin: 10px 0px 0px 0px;
         height: 300px;
         width: 300px;
+    }
+    .about-msg2 .services-btn{
+        justify-content: flex-start;
+        padding-left: 10px;
     }
 }  
 @media only screen and (max-width: 440px){ 
