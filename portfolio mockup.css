@@ -7,7 +7,7 @@
     align-items: center;
     text-align: center;
     padding: 4rem auto;
-    margin: 4rem 0rem;
+    padding: 4rem 0rem;
 }
 
 .portfolio-mockup h2{
@@ -40,6 +40,7 @@
     background-color: var(--brand--color--3);
     transition: .4s;
 }
+
 .box{
     display: flex;
     flex-direction: row;
