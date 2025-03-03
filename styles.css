@@ -27,18 +27,23 @@ body{
     }
 }
 
-.about{
+.about-inner-container{
     animation: appear 5s linear;
     animation-timeline: view();
     animation-range: 0% cover 40%;
 }
 
-.about2{
+.about-inner-container2{
     animation: appear 5s linear;
     animation-timeline: view();
     animation-range: 0% cover 40%;
 }
-.services{
+.services-div{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: 0% cover 40%;
+}
+.portfolio-head{
     animation: appear 5s linear;
     animation-timeline: view();
     animation-range: 0% cover 40%;
@@ -83,7 +88,7 @@ body{
 }
 .brand-logo img{
     cursor: pointer;
-    width: 190px;
+    width: 180px;
     height: 65px;
 }
 .links-container{
