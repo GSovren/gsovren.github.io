@@ -79,7 +79,8 @@
 /*responsive about css start*/
 @media only screen and (max-width: 1140px) {
     .about{
-        height: 100vh;
+        height: 110vh;
+        padding-bottom: 10px
     }
     .about-inner-container{
         flex-direction: column-reverse;
@@ -103,7 +104,7 @@
 }
 @media only screen and (max-width: 840px){
     .about{
-        height: 100vh;
+        height: 110vh;
     }
     .about-inner-container{
         margin: 0% 5% 0% 5%;
@@ -144,4 +145,5 @@
         padding: 10px 20px 10px 20px;
     }
 }
+
 /*responsive about css end*/
