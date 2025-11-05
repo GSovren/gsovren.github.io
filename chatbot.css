@@ -110,11 +110,13 @@
 
 @media only screen and (max-width: 1024px) {
     .chatbot{
-        width: 30%;
+        width: 43%;
     }
 }
 @media only screen and (max-width: 640px) {
     .chatbot{
         width: 90%;
+        right: 20px;
     }
 }
+
