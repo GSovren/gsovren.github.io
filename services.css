@@ -184,8 +184,7 @@
         margin: 3rem 0rem 0rem 4rem;
     }
     .portfolio-link h2 a{
-        display: none;
-        font-size: 28px;
+        font-size: 22px;
     }
     .service-points1 h2{
         font-size: 24px;
@@ -208,3 +207,4 @@
 }
 
 /*responsive services css end*/
+
