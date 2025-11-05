@@ -3,7 +3,7 @@
 .about{
     display: flex;
     justify-content: center;
-    background-image: url(images/6.png);  
+    background-color: black;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
     text-align: center;
     font-size: 30px;
     color: var(--brand--color--1);  
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .about-inner-container img{
     margin: 15px 25px 10px 25px;
@@ -45,8 +45,8 @@
     width: 100%;
     text-transform: none;
     text-align: left;
-    font-size: 40px;
-    color: #031c2c;
+    font-size: 42px;
+    color: white;
     margin-bottom: 5px;
     border-radius: 50%;
 }
@@ -54,8 +54,10 @@
     color: var(--brand--color--1);
 }
 .about-msg p{
+    color: white;
     text-align: left;
-    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 16px;
     margin-bottom: 10px;  
     max-width: 900px;  
 }
@@ -63,10 +65,13 @@
     color: var(--brand--color--3);
     font-weight: 600;
 }
+
 .about-msg a{
     font-size: 25px;
 }
 .about-msg h2{
+    display: flex;
+    gap: 2px;
     padding: 0px;
 }
 /*about css end*/

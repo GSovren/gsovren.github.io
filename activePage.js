@@ -16,5 +16,35 @@ window.onscroll=()=>{
     })
 }
 
+window.addEventListener('scroll', function() {
+    const navbar = document.querySelector('.navbar');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const cvLinks = document.querySelectorAll('.cv-link a');
+
+    if (window.scrollY > 0) {
+        navbar.classList.add('scrolled');
+        navLinks.forEach(link => link.classList.add('scrolled'));
+        cvLinks.forEach(link => link.classList.add('scrolled'));
+    } else {
+        navbar.classList.remove('scrolled');
+        navLinks.forEach(link => link.classList.remove('scrolled'));
+        cvLinks.forEach(link => link.classList.remove('scrolled'));
+    }
+});
+
+
+document.querySelectorAll('.scroll-left, .scroll-right').forEach(button => {
+  button.addEventListener('click', () => {
+    const targetSelector = button.getAttribute('data-target');
+    const container = document.querySelector(targetSelector);
+    const scrollAmount = 300; // adjust as needed
+
+    if (button.classList.contains('scroll-left')) {
+      container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    } else {
+      container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+  });
+});
 
 

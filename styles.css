@@ -9,6 +9,12 @@ html{
 }
 body{
     font-family: "Roboto", sans-serif;
+    background-image: url(images/1\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
 }
 :root{
     --brand--color--1: #0CC0DF;
@@ -27,29 +33,45 @@ body{
     }
 }
 
-.about-inner-container{
-    animation: appear 5s linear;
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-60%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.inner-hero-container {
+    animation: slideInFromLeft 5s linear;
     animation-timeline: view();
     animation-range: 0% cover 40%;
 }
 
+.about-inner-container {
+    animation: slideInFromLeft 5s linear;
+    animation-timeline: view();
+    animation-range: 0% cover 40%;
+}
 .about-inner-container2{
     animation: appear 5s linear;
     animation-timeline: view();
     animation-range: 0% cover 40%;
 }
 .services-div{
-    animation: appear 5s linear;
+    animation: slideInFromLeft 5s linear;
     animation-timeline: view();
     animation-range: 0% cover 40%;
 }
-.portfolio-head{
+.inner-portfolio-container{
     animation: appear 5s linear;
     animation-timeline: view();
     animation-range: 0% cover 40%;
 }
 .download-cv{
-    animation: appear 5s linear;
+    animation: slideInFromLeft 5s linear;
     animation-timeline: view();
     animation-range: 0% cover 40%;
 }
@@ -68,17 +90,21 @@ body{
     padding: 10px;
     width: 100%;
     max-height: 4rem;
-    background-color: rgb(0, 0, 0, 0.8);
-    box-shadow: 0px 2px 10px var(--brand--color--1);
     z-index: 10;
+}
+.navbar.scrolled {
+    background-color: rgb(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 10px var(--brand--color--1);
+    transition:  background-color .4s ease-in-out;
 }
 .navbar-inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 0% 10% 0% 10%;
+    margin: 0% 5% 0% 5%;
     padding: 10px;
+    height: 100%;
 }
 #sidebar-active{
     display: none;
@@ -88,19 +114,46 @@ body{
 }
 .brand-logo img{
     cursor: pointer;
-    width: 180px;
-    height: 65px;
+    width: 160px;
+}
+.brand-1{
+    position: absolute;
+    visibility: visible;
+}
+.navbar.scrolled .brand-1{
+    visibility: hidden;
+}
+.brand-2{
+    position: relative;
+    visibility: hidden;
+}
+.navbar.scrolled .brand-2{
+    visibility: visible;
+}
+
+
+/* .navbar.scrolled .brand-logo{
+    background-color: black;
+    transition:  background-color .8s ease-in-out;
+} */
+.nav-links-wrapper{
+    height: 100%;
 }
 .links-container{
     display: flex;
+    height: 100%;
 }
 .nav-links a{   
-    font-size: 17px;
-    font-weight: 500;
-    color: var(--brand--color--2);
-    padding: 5px 12px 5px 12px;
-    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    padding: 8px 12px 8px 12px;
+    border-radius: 4px;
     transition: 0.2s;
+    height: 100%;
+}
+.navbar.scrolled .nav-links a {
+    color: white;
 }
 
 .nav-links a:hover,
@@ -112,12 +165,17 @@ body{
 
 .links-container .cv-link a{
     text-transform: none;
-    font-size: 17px;
-    color: var(--brand--color--2);
-    padding: 8px 15px 8px 15px;
-    border: solid 2px var(--brand--color--2);
-    border-radius: 8px;
+    font-size: 15px;
+    color: black;
+    padding: 7px 12px 7px 12px;
+    height: 100%;
+    border: solid 2px black;
+    border-radius: 4px;
     margin: 0px 3px 0px 20px
+}
+.navbar.scrolled .cv-link a {
+    color: white;
+    border: solid 1px white;
 }
 .links-container .cv-link a:hover{
     background-color: var(--brand--color--1);
@@ -219,13 +277,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 300px;
-    background-color: var(--brand--color--1);
+    background-color: black;
 }
 .download-cv p{
     color: var(--brand--color--2);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
-    margin: 10px;
 }
 .download-btn{
     margin: 20px 0px;
@@ -233,13 +290,13 @@ body{
 .download-btn a{
     cursor: pointer;
     color: black;
-    background-color: aqua;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    background-color: var(--brand--color--1);
+    font-size: 16px;
+    padding: 8px 15px 8px 15px;
     border-style: solid;
     border-width: 2px;
     border-color: var(--brand--color--3);
-    border-radius: 8px;
+    border-radius: 5px;
 }
 .download-btn i{
     font-size: 24px;
@@ -263,7 +320,7 @@ body{
     }
     .download-cv p{
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 /*responsive portfolio css end*/
@@ -280,6 +337,7 @@ body{
     background-color: var(--brand--color--1);
 }
 .copyright p{
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-content: center;
