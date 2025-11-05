@@ -79,12 +79,12 @@
 /*responsive about css start*/
 @media only screen and (max-width: 1140px) {
     .about{
-        height: 110vh;
-        padding-bottom: 10px
+        height: 100vh;
     }
     .about-inner-container{
         flex-direction: column-reverse;
         height: 100vh;
+        padding-bottom: 50px;
     }
     .about-msg{
         margin: 30px 10px 30px 10px;
@@ -147,3 +147,4 @@
 }
 
 /*responsive about css end*/
+
