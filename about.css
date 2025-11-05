@@ -123,7 +123,7 @@
         width: 300px;
     } 
     .about-msg2 .services-btn a{
-        font-size: 16px;
+        font-size: 18px;
         padding: 10px 20px 10px 20px;
     }
 }
@@ -136,7 +136,7 @@
         font-size: 18px;
     }
     .about-msg p{
-        font-size: 16px;
+        font-size: 18px;
         text-align: left;
         margin: 0px 0px 10px 0px;
     }
@@ -146,8 +146,9 @@
         width: 280px;
     } 
     .about-msg2 .services-btn a{
-        font-size: 15px;
+        font-size: 18px;
         padding: 10px 20px 10px 20px;
     }
 }
 /*responsive about css end*/
+
