@@ -93,7 +93,7 @@
         font-size: 26px;
     }
     .about-msg h1{
-        font-size: 30px;
+        font-size: 28px;
         text-align: left;
         padding: 0px 0px 0px 0px;
     }
@@ -114,7 +114,7 @@
         padding: 0px 0px 0px 0px;
     }
     .about-msg p{
-        font-size: 20px;
+        font-size: 18px;
         text-align: left;
         margin: 0px 0px 10px 0px;
     }
@@ -123,7 +123,7 @@
         width: 300px;
     } 
     .about-msg2 .services-btn a{
-        font-size: 18px;
+        font-size: 16px;
         padding: 10px 20px 10px 20px;
     }
 }
@@ -133,10 +133,10 @@
         color: var(--brand--color--3);
     }
     .about-msg h2{
-        display: none;
+        font-size: 18px;
     }
     .about-msg p{
-        font-size: 20px;
+        font-size: 16px;
         text-align: left;
         margin: 0px 0px 10px 0px;
     }
@@ -146,7 +146,7 @@
         width: 280px;
     } 
     .about-msg2 .services-btn a{
-        font-size: 18px;
+        font-size: 15px;
         padding: 10px 20px 10px 20px;
     }
 }
