@@ -129,7 +129,8 @@
 @media only screen and (max-width: 1024px) {
     .hero{
         width: 100%;
-        height: 100vh;
+        height: 110vh;
+        padding-bottom: 10px;
     }
     .image-overlay{
         width: 100%;
@@ -149,7 +150,6 @@
 @media only screen and (max-width: 840px) {
     .hero{
         width: 100%;
-        height: 100vh;
     }
     .image-overlay{
         width: 100%;
@@ -199,4 +199,5 @@
     }
 
 }
+
 /*responsive hero css end*/
