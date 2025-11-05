@@ -93,7 +93,7 @@ body{
     z-index: 10;
 }
 .navbar.scrolled {
-    background-color: rgb(0, 0, 0, 0.3);
+    background-color: rgb(0, 0, 0, 0.6);
     box-shadow: 0px 2px 10px var(--brand--color--1);
     transition:  background-color .4s ease-in-out;
 }
@@ -183,6 +183,9 @@ body{
     border-color: var(--brand--color--1);
     transition: .4s;   
 }
+.navbar.scrolled .drop-menu i{
+    color: white;
+}
 .drop-menu i{
     cursor: pointer;
     border: 1px solid;
@@ -220,6 +223,9 @@ body{
         top: 0;
         left: 0;
         z-index: 9;
+    }
+    .navbar.scrolled .nav-links-wrapper{
+        background-color: rgb(0, 0, 0, 0.6);
     }
     .nav-links-wrapper{
         position: fixed;
@@ -352,6 +358,5 @@ body{
     }
 }
 /*responsive copyright css end*/
-
 
 
