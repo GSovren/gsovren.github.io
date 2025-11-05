@@ -224,8 +224,8 @@ body{
         left: 0;
         z-index: 9;
     }
-    .navbar.scrolled .nav-links-wrapper{
-        background-color: rgb(0, 0, 0, 0.6);
+    .navbar.scrolled .nav-links a{
+        color: black;
     }
     .nav-links-wrapper{
         position: fixed;
@@ -252,11 +252,18 @@ body{
         border-radius: 5px;
         margin: 0px 3px 0px 3px;
     }
+    .navbar.scrolled .cv-link a{
+        color: black;
+        border: solid 2px black;
+    }
     .links-container .cv-link{
         margin: 10px 3px 0px 3px;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .links-container .cv-link a{
+        margin: 0px 0px 0px 0px;
     }
     .drop-menu i{
         display: block;
