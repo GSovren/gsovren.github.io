@@ -65,7 +65,7 @@ body{
     animation-timeline: view();
     animation-range: 0% cover 40%;
 }
-.inner-portfolio-container{
+.scroll-buttons{
     animation: appear 5s linear;
     animation-timeline: view();
     animation-range: 0% cover 40%;
@@ -352,5 +352,6 @@ body{
     }
 }
 /*responsive copyright css end*/
+
 
 
