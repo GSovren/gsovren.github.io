@@ -7,7 +7,7 @@
 .chatbot{
     position: fixed;
     background: #fff;
-    bottom: 130px;
+    bottom: 120px;
     right: 30px;
     transform: scale(0.5);
     transform-origin: bottom right;
@@ -52,7 +52,7 @@
     align-items: center;
     position: fixed;
     right: 30px;
-    bottom: 50px;
+    bottom: 40px;
     z-index: 999;
 }
 
@@ -102,4 +102,5 @@
 }
 .show-chatbot .chatbot-toggler{
     transform: rotate(90deg);
+
 }
