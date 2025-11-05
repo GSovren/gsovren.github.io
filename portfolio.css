@@ -182,14 +182,15 @@
         margin: 20px 10px ;
     }
     .prototype-btn a{
-        font-size: 18px;
-        width: 150px;
+        font-size: 14px;
+        width: 40%;
     }
     .prototype-btn-mobile a{
-        font-size: 18px;
-        width: 150px;
+        font-size: 14px;
+        width: 60%;
     }
 
 }
 /*responsive portfolio css end*/
+
 
