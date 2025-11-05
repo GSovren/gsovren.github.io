@@ -92,9 +92,10 @@
     .about-msg a{
         font-size: 26px;
     }
-    .about h1{
+    .about-msg h1{
         font-size: 30px;
         text-align: left;
+        padding: 0px 0px 0px 0px;
     }
     .about-msg p{
         font-size: 20px;
@@ -104,13 +105,13 @@
 }
 @media only screen and (max-width: 840px){
     .about{
-        height: 110vh;
+        height: 100vh;
     }
     .about-inner-container{
         margin: 0% 5% 0% 5%;
     }
     .about-msg h1{
-        padding-left: 0px;
+        padding: 0px 0px 0px 0px;
     }
     .about-msg p{
         font-size: 20px;
@@ -128,7 +129,7 @@
 }
 @media only screen and (max-width: 440px){
     .about-msg h1{
-        padding-left: 15px;
+        padding-left: 0px;
     }
     .about-msg p{
         font-size: 20px;
@@ -145,6 +146,4 @@
         padding: 10px 20px 10px 20px;
     }
 }
-
 /*responsive about css end*/
-
