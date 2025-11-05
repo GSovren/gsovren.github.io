@@ -129,8 +129,7 @@
 @media only screen and (max-width: 1024px) {
     .hero{
         width: 100%;
-        height: 110vh;
-        padding-bottom: 10px;
+        height: 100vh;
     }
     .image-overlay{
         width: 100%;
@@ -143,6 +142,12 @@
     .greet-msg p{
         font-size: 20px;
         margin-bottom: 10px;
+    }
+    .learn-more .btn1{
+        font-size: 20px;
+    }
+    .learn-more .btn2{
+        font-size: 20px;
     }
     
 }
@@ -201,3 +206,4 @@
 }
 
 /*responsive hero css end*/
+
