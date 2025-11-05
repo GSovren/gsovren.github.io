@@ -90,7 +90,7 @@ body{
     padding: 10px;
     width: 100%;
     max-height: 4rem;
-    z-index: 10;
+    z-index: 1000;
 }
 .navbar.scrolled {
     background-color: rgb(0, 0, 0, 0.6);
@@ -365,5 +365,6 @@ body{
     }
 }
 /*responsive copyright css end*/
+
 
 
