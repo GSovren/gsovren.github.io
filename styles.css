@@ -78,7 +78,7 @@ body{
 .contact{
     animation: appear 5s linear;
     animation-timeline: view();
-    animation-range: 0% cover 40%;
+    animation-range: 0% cover 30%;
 }
 
 
@@ -366,6 +366,7 @@ body{
     }
 }
 /*responsive copyright css end*/
+
 
 
 
