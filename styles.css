@@ -47,23 +47,23 @@ body{
 .inner-hero-container {
     animation: slideInFromLeft 5s linear;
     animation-timeline: view();
-    animation-range: 0% cover 30%;
+    animation-range: 0% cover 40%;
 }
 
 .about-inner-container {
     animation: slideInFromLeft 5s linear;
     animation-timeline: view();
-    animation-range: 0% cover 30%;
+    animation-range: 0% cover 40%;
 }
 .about-inner-container2{
     animation: appear 5s linear;
     animation-timeline: view();
-    animation-range: 0% cover 30%;
+    animation-range: 0% cover 40%;
 }
 .services-div{
     animation: slideInFromLeft 5s linear;
     animation-timeline: view();
-    animation-range: 0% cover 20%;
+    animation-range: 0% cover 30%;
 }
 .scroll-buttons{
     animation: appear 5s linear;
@@ -73,12 +73,12 @@ body{
 .download-cv{
     animation: slideInFromLeft 5s linear;
     animation-timeline: view();
-    animation-range: 0% cover 20%;
+    animation-range: 0% cover 30%;
 }
 .contact{
     animation: appear 5s linear;
     animation-timeline: view();
-    animation-range: 0% cover 30%;
+    animation-range: 0% cover 40%;
 }
 
 
@@ -366,6 +366,7 @@ body{
     }
 }
 /*responsive copyright css end*/
+
 
 
 
