@@ -294,7 +294,7 @@ body{
 }
 .download-cv p{
     color: var(--brand--color--2);
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
 }
 .download-btn{
@@ -326,7 +326,7 @@ body{
  /*responsive portfolio css start*/
  @media only screen and (max-width: 840px) {
     .download-cv{
-        padding: 0% 8% 0% 8%;
+        padding: 0% 4% 0% 4%;
     }
     .download-cv a{
         font-size: 18px;
@@ -334,7 +334,7 @@ body{
     }
     .download-cv p{
         text-align: center;
-        font-size: 16px;
+        font-size: 19px;
     }
 }
 /*responsive portfolio css end*/
@@ -366,6 +366,7 @@ body{
     }
 }
 /*responsive copyright css end*/
+
 
 
 
