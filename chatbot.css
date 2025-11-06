@@ -8,7 +8,7 @@
     position: fixed;
     background: #fff;
     bottom: 120px;
-    right: 30px;
+    right: 40px;
     width: 30%;
     transform: scale(0.5);
     transform-origin: bottom right;
@@ -55,7 +55,7 @@
     display: flex;
     align-items: center;
     position: fixed;
-    right: 30px;
+    right: 40px;
     bottom: 40px;
     z-index: 999;
 }
@@ -64,7 +64,7 @@
     font-size: 20px;
     color: rgb(44, 44, 44);
     margin-right: 10px;
-    animation: blink 1s linear infinite;
+    animation: pulse .8s linear infinite;
     
 }
 @keyframes blink{
@@ -76,6 +76,17 @@
     }
     100%{
         opacity: 1;
+    }
+}
+@keyframes pulse{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.15;
+    }
+    100%{
+        scale: 1.01;
     }
 }
 .chatbot-toggler{
@@ -90,6 +101,7 @@
     justify-content: center;
     cursor: pointer;
     transition: all 0.3s ease;
+    animation: pulse .8s linear infinite;
 }
 
 .chatbot-toggler i{
@@ -108,7 +120,7 @@
     transform: rotate(90deg);
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1124px) {
     .chatbot{
         width: 43%;
     }
@@ -119,4 +131,3 @@
         right: 20px;
     }
 }
-
