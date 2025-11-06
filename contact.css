@@ -121,7 +121,7 @@
  @media only screen and (max-width: 840px) {
     
     .contact{
-        height: 110vh;
+        height: 100vh;
     }
     .contact-inner-container{
         flex-direction: column;
@@ -182,4 +182,5 @@
 }
 
 /*responsive contact css end*/
+
 
