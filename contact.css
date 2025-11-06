@@ -34,7 +34,7 @@
     font-size: 45px;
     font-weight: 600;
     color: var(--brand--color--3);
-    margin: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 0px;
 }
 .contact-links{
     display: flex;
@@ -126,12 +126,15 @@
     .contact-inner-container{
         flex-direction: column;
     }
+    .contact-msg span{
+        font-size: 34px;
+    }
     .contact-msg{
-        font-size: 28px;
-        margin-bottom: 20px;
+        font-size: 34px;
+        margin-bottom: 15px;
     }
     .contact-msg p{
-        font-size: 28px;
+        font-size: 34px;
     }
     .contact-links i{
         font-size: 40px;
@@ -177,6 +180,5 @@
         background-color: var(--brand--color--1);
     }
 }
-
 
 /*responsive contact css end*/
