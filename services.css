@@ -94,15 +94,15 @@
     font-size: 24px;
 }
 .service-points1 p{
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 10px;
 }
 .service-points2 p{
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 10px;
 }
 .service-points3 p{
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 10px;
 }
 .service-points .ui-icons img{
@@ -207,5 +207,6 @@
 }
 
 /*responsive services css end*/
+
 
 
