@@ -40,7 +40,8 @@
     margin: 0% 15% 0% 15%;
 }
 .inner-hero-container h1{
-    font-size: 50px;
+    text-align: center;
+    font-size: 40px;
     color: black;
     text-transform: uppercase;
     margin: 10px 0px 10px 0px;
@@ -209,4 +210,5 @@
 
 }
 /*responsive hero css end*/
+
 
