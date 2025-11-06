@@ -131,7 +131,7 @@
 @media only screen and (max-width: 440px){
     .about-msg h1{
         padding-left: 0px;
-        color: var(--brand--color--3);
+        color: var(--brand--color--1);
     }
     .about-msg h2{
         font-size: 18px;
@@ -152,5 +152,6 @@
     }
 }
 /*responsive about css end*/
+
 
 
