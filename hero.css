@@ -60,11 +60,12 @@
 }
 .greet-msg p span{
     font-weight: bold;
-    color: var(--brand--color--1);
+    color: var(--brand--color--3);
 } 
 .learn-more{
     display: flex;
     justify-content: center;
+    margin-top: 5px;
 }
 .learn-more .btn1{
     display: flex;
@@ -210,5 +211,6 @@
 
 }
 /*responsive hero css end*/
+
 
 
