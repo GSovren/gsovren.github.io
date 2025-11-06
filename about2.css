@@ -80,6 +80,7 @@
 @media only screen and (max-width: 1140px) {
     .about-inner-container2{
        flex-direction: column;
+       justify-content: center;
        
     }
     .about-msg2{
@@ -89,7 +90,7 @@
     }
     .about-msg2 h1{
         font-size: 30px;
-        text-align: left;
+        text-align: center;
         justify-content: center
     }
     .about-msg2 p{
@@ -110,7 +111,6 @@
     }
     .about-msg2 p{
         font-size: 18px;
-        text-align: left;
         margin: 0px 0px 10px 0px;
     }
     .about-inner-container2 img{
@@ -121,9 +121,12 @@
 }  
 @media only screen and (max-width: 440px){ 
     .about-inner-container2 img{
-        margin: 30% 0px 10% 0px;
+        margin: 0% 0px 10% 0px;
         height: 300px;
         width: 300px;
+    }
+    .about-msg2 p{
+        text-align: left;
     }
     .about-msg2 .services-btn{
         justify-content: flex-start;
@@ -135,4 +138,3 @@
     }
 } 
 /*responsive about css end*/
-
