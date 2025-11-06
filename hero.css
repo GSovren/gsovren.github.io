@@ -39,7 +39,7 @@
     border-radius: 15px;
     margin: 0% 15% 0% 15%;
 }
-.inner-hero-container h1{
+h1{
     text-align: center;
     font-size: 40px;
     color: black;
@@ -56,7 +56,7 @@
     font-size: 16px;
     letter-spacing: 1px;
     color: black;
-    margin-bottom: 8px;
+    margin-bottom: 25px;
 }
 .greet-msg p span{
     font-weight: bold;
@@ -140,13 +140,11 @@
         width: 100%;
         margin: 0% 5% 0% 5%;
     }
-    .inner-hero-container h1{
+    h1{
         font-size: 38px;
-        margin: 10px 0px 10px 0px;
     }
     .greet-msg p{
         font-size: 20px;
-        margin-bottom: 10px;
     }
     .learn-more .btn1{
         font-size: 20px;
@@ -169,17 +167,11 @@
         max-width: 100%;
         margin: 0% 5% 0% 5%;    
     }
-    .inner-hero-container h1{
+    h1{
         font-size: 38px;
-        margin: 10px 0px 10px 0px;
-    }
-    .inner-hero-container h1{
-        text-align: center;
-        margin: 5px 0px 0px 0px;
     }
     .greet-msg p{
         font-size: 22px;
-        margin-bottom: 10px;
     }
     .learn-more{
         flex-direction: column;
@@ -196,12 +188,8 @@
 }
 @media only screen and (max-width: 640px) {
     .inner-hero-container{
-        padding: 30px 40px 30px 40px;
-        height: 250px;
+        padding: 0px 40px 0px 40px;
         width: 480px;
-    }
-    .greet-msg{
-        margin-bottom: 15px;
     }
     .learn-more a{
         font-size: 18px;
@@ -210,8 +198,3 @@
 
 }
 /*responsive hero css end*/
-
-
-
-
-
