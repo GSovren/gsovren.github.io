@@ -75,11 +75,6 @@ body{
     animation-timeline: view();
     animation-range: 0% cover 30%;
 }
-.contact{
-    animation: appear 5s linear;
-    animation-timeline: view();
-    animation-range: 0% cover 30%;
-}
 
 
 /*navbar css start*/
@@ -366,6 +361,7 @@ body{
     }
 }
 /*responsive copyright css end*/
+
 
 
 
