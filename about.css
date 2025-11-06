@@ -94,13 +94,18 @@
     }
     .about-msg h1{
         font-size: 28px;
-        text-align: left;
+        justify-content: center;
+        text-align: center;
         padding: 0px 0px 0px 0px;
     }
     .about-msg p{
         font-size: 20px;
         text-align: center;
-        padding: 8px;
+        padding: 0px;
+    }
+    .about-msg h2{
+        justify-content: center;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 840px){
@@ -115,9 +120,8 @@
     }
     .about-msg p{
         font-size: 18px;
-        text-align: left;
+        text-align: center;
         margin: 0px 0px 10px 0px;
-        padding: 0px;
     }
     .about-inner-container img{
         height: 300px;
@@ -130,11 +134,14 @@
 }
 @media only screen and (max-width: 440px){
     .about-msg h1{
+        justify-content: flex-start;
+        text-align: left;
         padding-left: 0px;
-        color: var(--brand--color--1);
     }
     .about-msg h2{
         font-size: 18px;
+        justify-content: flex-start;
+        width: 100%;
     }
     .about-msg p{
         font-size: 18px;
@@ -152,6 +159,3 @@
     }
 }
 /*responsive about css end*/
-
-
-
