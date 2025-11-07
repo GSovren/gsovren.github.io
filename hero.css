@@ -149,10 +149,10 @@
         margin-bottom: 10px;
     }
     .learn-more .btn1{
-        font-size: 20px;
+        font-size: 18px;
     }
     .learn-more .btn2{
-        font-size: 20px;
+        font-size: 18px;
     }
     
 }
@@ -183,10 +183,10 @@
     }
     .learn-more .btn1{
         margin: 0px 0px 5px 0px;
-        width: 230px;
+        width: 220px;
     } 
     .learn-more .btn2{
-        width: 230px;
+        width: 220px;
         margin: 5px 0px 0px 0px;
     } 
 }
@@ -202,6 +202,7 @@
 
 }
 /*responsive hero css end*/
+
 
 
 
