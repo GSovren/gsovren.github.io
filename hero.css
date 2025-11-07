@@ -174,7 +174,7 @@
         margin: 0px 0px 0px 0px;
     }
     .greet-msg p{
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 10px;
     }
     .learn-more{
@@ -202,5 +202,6 @@
 
 }
 /*responsive hero css end*/
+
 
 
