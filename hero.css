@@ -41,10 +41,10 @@
 }
 .inner-hero-container h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     text-transform: uppercase;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 5px 0px;
 }
 
 .greet-msg{
@@ -53,7 +53,7 @@
     text-align: center;
 }
 .greet-msg p{
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 1px;
     color: black;
     margin-bottom: 8px;
@@ -170,11 +170,12 @@
         margin: 0% 5% 0% 5%;    
     }
     .inner-hero-container h1{
-        font-size: 30px;
+        font-size: 33px;
         margin: 0px 0px 0px 0px;
     }
     .greet-msg p{
         font-size: 18px;
+        letter-spacing: 0px;
         margin-bottom: 10px;
     }
     .learn-more{
@@ -202,8 +203,3 @@
 
 }
 /*responsive hero css end*/
-
-
-
-
-
