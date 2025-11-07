@@ -58,7 +58,7 @@
     border-bottom: 2px solid var(--brand--color--3);
     border-radius: 5px;
     margin-bottom: 20px;
-    overflow-x: scroll;
+    overflow-x: auto;
     box-shadow: 0px 2px 10px rgb(0, 0, 0, 0.1);
 }
 
@@ -92,9 +92,9 @@
     border: 1px solid var(--brand--color--3);
 }
 .web1 img:hover{
-    scale: 1.02;
+    scale: 1.2;
     box-shadow: 5px 2px 10px 5px var(--brand--color--1);
-    transition: .4s;
+    transition: .3s ease-in-out;
 }
 .web2 img{
     cursor: pointer;
@@ -105,9 +105,9 @@
     border: 1px solid var(--brand--color--3);
 }
 .web2 img:hover{
-    scale: 1.02;
+    scale: 1.2;
     box-shadow: 0px 4px 10px 6px var(--brand--color--1);
-    transition: .4s;
+    transition: .2s ease-in;
 }
 .web3 img{
     cursor: pointer;
@@ -118,9 +118,9 @@
     transition: .4s;
 }
 .web3 img:hover{
-    scale: 1.02;
+    scale: 1.2;
     box-shadow: 0px 4px 10px 6px var(--brand--color--1);
-    transition: .4s;
+    transition: .2s ease-in;
 }
 .web-mobile img{
     cursor: pointer;
@@ -131,9 +131,9 @@
     border: 1px solid var(--brand--color--3);
 }
 .web-mobile img:hover{
-    scale: 1.02;
+    scale: 1.2;
     box-shadow: 0px 4px 10px 6px var(--brand--color--1);
-    transition: .4s;
+    transition: .2s ease-in;
 }
 .prototype-btn a{
     margin: 10px 30px 10px 30px;
@@ -142,9 +142,10 @@
     justify-content: center;
     align-items: center;
     width: 40%;
-    padding: 8px;
-    color: var(--brand--color--2);
-    background-color: var(--brand--color--1);
+    padding: 5px;
+    color: white;
+    background-color: var(--brand--color--3);
+    border: 1px solid white;
     border-radius: 5px;
 }
 .prototype-btn a:hover{
@@ -162,9 +163,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px;
-    color: var(--brand--color--2);
-    background-color: var(--brand--color--1);
+    padding: 5px;
+    color: white;
+    background-color: var(--brand--color--3);
+    border: 1px solid white;
     border-radius: 5px;
 }
 .prototype-btn-mobile a:hover{
@@ -192,6 +194,3 @@
 
 }
 /*responsive portfolio css end*/
-
-
-
