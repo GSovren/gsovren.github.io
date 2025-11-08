@@ -60,16 +60,12 @@ body{
     animation-timeline: view();
     animation-range: 0% cover 40%;
 }
-.services-div{
-    animation: slideInFromLeft 5s linear;
-    animation-timeline: view();
-    animation-range: 0% cover 30%;
-}
 .scroll-buttons{
     animation: appear 5s linear;
     animation-timeline: view();
     animation-range: 0% cover 40%;
 }
+
 
 
 /*navbar css start*/
@@ -284,11 +280,11 @@ body{
 }
 .download-cv p{
     color: var(--brand--color--2);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
 }
 .download-btn{
-    margin: 20px 0px;
+    margin: 22px 0px;
 }
 .download-btn a{
     cursor: pointer;
@@ -324,7 +320,7 @@ body{
     }
     .download-cv p{
         text-align: center;
-        font-size: 19px;
+        font-size: 16px;
     }
 }
 /*responsive portfolio css end*/
@@ -356,13 +352,5 @@ body{
     }
 }
 /*responsive copyright css end*/
-
-
-
-
-
-
-
-
 
 
