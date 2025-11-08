@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -136,6 +135,9 @@
     .services-heading h1{
         font-size: 30px;
     }
+    .services-heading i{
+    font-size: 32px;
+}
     .service-points-container{
         flex-direction: column;
     }
@@ -158,9 +160,12 @@
         margin: 0rem 0rem 1.5rem 0rem;
     }
     .services-heading h1{
-        font-size: 26px;
+        font-size: 24px;
         text-align: center;
     }
+    .services-heading i{
+    font-size: 28px;
+}
     .services-div{
         margin: 0% 3% 0% 3%;
     }
@@ -205,8 +210,4 @@
         font-size: 24px;
     }
 }
-
 /*responsive services css end*/
-
-
-
