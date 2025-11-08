@@ -280,7 +280,7 @@ body{
 }
 .download-cv p{
     color: var(--brand--color--2);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 }
 .download-btn{
@@ -352,6 +352,7 @@ body{
     }
 }
 /*responsive copyright css end*/
+
 
 
 
