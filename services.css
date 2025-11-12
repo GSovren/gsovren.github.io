@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--brand--color--2);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +19,7 @@
     align-items: center;
     border-radius: 5px;
     max-width: 1400px;
-    margin: 0% 15% 0% 15%;
+    margin: 0% 10% 0% 10%;
     padding: 20px;
 }
 .services-inner-container{
@@ -39,7 +40,7 @@
 .services-heading h1{
     text-align: left;
     color: black;
-    font-size: 35px;
+    font-size: 40px;
     border-bottom: 2.5px solid var(--brand--color--1);
 }
 .service-points1 i{
@@ -66,42 +67,45 @@
     margin: 10.5rem 1.5rem 0rem 1.5rem;
 }
 .service-points1 h2{
-    font-size: 22px;
+    font-size: 24px;
     color: black; 
     margin-left: 15px;  
 }
 .service-points2 h2{
-    font-size: 22px;
+    font-size: 24px;
     color: black;
     margin-left: 10px; 
 }
 .service-points3 h2{
-    font-size: 22px;
+    font-size: 24px;
     color: black;
     margin-left: 10px;
 }
 .service-points1 i{
     color: var(--brand--color--1);
-    font-size: 24px;
+    font-size: 26px;
 }
 .service-points2 i{
     color: var(--brand--color--1);
-    font-size: 24px;
+    font-size: 26px;
 }
 .service-points3 i{
     color: var(--brand--color--1);
-    font-size: 24px;
+    font-size: 26px;
 }
 .service-points1 p{
-    font-size: 19px;
+    font-size: 20px;
+    font-weight: 300;
     margin-bottom: 10px;
 }
 .service-points2 p{
-    font-size: 19px;
+    font-size: 20px;
+    font-weight: 300;
     margin-bottom: 10px;
 }
 .service-points3 p{
-    font-size: 19px;
+    font-size: 20px;
+    font-weight: 300;
     margin-bottom: 10px;
 }
 .service-points .ui-icons img{
@@ -129,6 +133,9 @@
 
 /*responsive services css start*/
 @media only screen and (max-width: 1210px){
+    .services{
+        height: 1150px;
+    }
     .services-heading{
         justify-content: center;
     }
@@ -156,9 +163,6 @@
     .services-div{
         padding: 10px;
         margin: 0% 5% 0% 5%;
-    }
-    .services{
-        height: 1150px;
     }
     .services-heading{
         margin: 0rem 0rem 1.5rem 0rem;

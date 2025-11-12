@@ -2,7 +2,7 @@
 .about2{
     display: flex;
     justify-content: center;
-    background-color: orange;
+    background-color: #03062C;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,15 +11,13 @@
 }
 .about-inner-container2{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
-    margin: 3% 10% 0% 10%;
+    margin: 3% 8% 0% 8%;
 }
 .about-inner-container2 img{
-    margin: 0px 0px 30px 25px;
-    height: 380px;
-    width: 380px;
+    
 }
 .about-msg2{
     display: flex;
@@ -33,10 +31,10 @@
     display: flex;
     width: 100%;
     text-transform: none;
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-start;
+    text-align: left;
     font-size: 42px;
-    color: black;
+    color: var(--brand--color--2);
     margin-bottom: 5px;
     border-radius: 50%;
 }
@@ -44,10 +42,11 @@
     color: var(--brand--color--1);
 }
 .about-msg2 p{
-    text-align: center;
+    color: var(--brand--color--2);
+    text-align: left;
     letter-spacing: 1px;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 200;
     margin-bottom: 10px;  
     width: 100%;  
 }
@@ -57,22 +56,21 @@
 }
 .about-msg2 .services-btn{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
 }
 .about-msg2 .services-btn a{
     display: flex;
     cursor: pointer;
     color: var(--brand--color--2);
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px 25px 10px 25px;
     background-color: orange;
-    border:  2px solid var(--brand--color--2);
-    border-radius: 8px;
+    border-radius: 5px;
     margin-top: 0px;
 }
 .about-msg2 .services-btn a:hover{
-    background-color: black;
+    background-color: orangered;
     transition: .4s
 }
 /*about css end*/
@@ -98,6 +96,11 @@
         justify-content: center;
         text-align: center;
     } 
+    .about-msg2 .services-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 }
 @media only screen and (max-width: 840px){
     .about2{

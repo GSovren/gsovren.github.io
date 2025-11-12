@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center ;
     align-items: center;
-    background-color: var(--brand--color--2);
+    background-color: #03062C;
     padding: 5% 5%;
 }
 
@@ -17,8 +17,8 @@
 }
 .scroll-buttons i{
     font-size: 45px;
-    color: rgb(69, 218, 218);
-    opacity:60%;
+    color: var(--brand--color--2);
+    opacity:80%;
     margin: 0px 0px;
 }
 .scroll-buttons i:hover{
@@ -42,9 +42,9 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    color: var(--brand--color--3);
-    margin: 10px 0px 5px 0px;
-    font-size: 20px;
+    color: var(--brand--color--2);
+    margin: 30px 0px 10px 0px;
+    font-size: 24px;
     text-transform: uppercase;
 }
 .inner-portfolio-container{
@@ -89,7 +89,8 @@
     height: 130px;
     width: 230px;
     transition: .4s;
-    border: 1px solid var(--brand--color--3);
+    border-radius: 5px;
+    border: 2px solid var(--brand--color--3);
 }
 .web1 img:hover{
     scale: 1.2;
@@ -102,7 +103,8 @@
     height: 130px;
     width: 230px;
     transition: .4s;
-    border: 1px solid var(--brand--color--3);
+    border: 2px solid var(--brand--color--3);
+    border-radius: 5px;
 }
 .web2 img:hover{
     scale: 1.2;
@@ -113,8 +115,9 @@
     cursor: pointer;
     margin: 0px 20px 10px 20px;
     height: 130px;
-    width: 230px;
-    border: 1px solid var(--brand--color--3);
+    width: 250px;
+    border: 2px solid var(--brand--color--3);
+    border-radius: 5px;
     transition: .4s;
 }
 .web3 img:hover{
@@ -128,7 +131,8 @@
     height: 150px;
     width: 70px;
     transition: .4s;
-    border: 1px solid var(--brand--color--3);
+    border: 2px solid var(--brand--color--3);
+    border-radius: 5px;
 }
 .web-mobile img:hover{
     scale: 1.2;
@@ -163,7 +167,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 5px 10px;
     color: white;
     background-color: var(--brand--color--3);
     border: 1px solid white;
@@ -177,8 +181,11 @@
 
  /*responsive portfolio css start*/
  @media only screen and (max-width: 1024px) {
+    .scroll-buttons i{
+        font-size: 35px;
+    }
     .portfolio{
-        padding: 0% 0%;
+        padding: 0% 3%;
     }
     .inner-portfolio-container{
         margin: 20px 10px ;
@@ -189,7 +196,8 @@
     }
     .prototype-btn-mobile a{
         font-size: 14px;
-        width: 60%;
+        padding: 5px 5px;
+        width: 62%;
     }
 
 }

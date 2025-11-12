@@ -3,7 +3,7 @@
 .about{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: white;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,9 +12,10 @@
 }
 .about-inner-container{
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    margin: 3% 13% 0% 13%;
+    margin: 3% 8% 0% 8%;
 }
 .about-msg a{
     display: flex;
@@ -22,23 +23,29 @@
     align-items: center;
     text-align: center;
     font-size: 30px;
+    width: 100%;
     color: var(--brand--color--1);  
     margin-left: 0px;
 }
-.about-inner-container img{
-    margin: 15px 25px 10px 25px;
-    height: 480px;
-    width: 480px;
-}
+
 .about-msg{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    padding: 20px 5px 35px 5px;
-    margin: 0px 20px 10px 30px;
-        
+    padding: 0px 5px 0px 5px;
+    margin: 0px 20px 10px 0px;
+    width: 55%;       
+}
+.about-msg-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;       
+}
+.about-msg-2 img{
+    width: 95%;
 }
 .about-msg h1{
     display: flex;
@@ -46,7 +53,7 @@
     text-transform: none;
     text-align: left;
     font-size: 42px;
-    color: white;
+    color: black;
     margin-bottom: 5px;
     border-radius: 50%;
 }
@@ -54,15 +61,15 @@
     color: var(--brand--color--1);
 }
 .about-msg p{
-    color: white;
+    color: black;
     text-align: left;
     letter-spacing: 1px;
-    font-size: 16px;
-    margin-bottom: 10px;  
-    max-width: 900px;  
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;   
 }
 .about-msg p span{
-    color: var(--brand--color--3);
+    color: var(--brand--color--1);
     font-weight: 600;
 }
 
@@ -88,6 +95,7 @@
     }
     .about-msg{
         margin: 30px 10px 30px 10px;
+        width: 90%;
     }
     .about-msg a{
         font-size: 22px;
