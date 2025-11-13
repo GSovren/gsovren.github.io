@@ -120,16 +120,22 @@
 }
 
 /*contact css end*/
-
+ @media only screen and (max-width: 1024px) {
+    
+    .contact{
+        height: auto;
+    }
+}
  /*responsive contact css start*/
  @media only screen and (max-width: 840px) {
     
     .contact{
-        height: 100vh;
+        height: auto;
     }
     .contact-inner-container{
         flex-direction: column;
-        margin: 0% 8% 0% 8%;  
+        margin: 0% 8% 0% 0%; 
+        height: auto; 
     }
     .contact-msg span{
         font-size: 34px;
