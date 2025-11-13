@@ -153,7 +153,7 @@
     border-radius: 2px;
 }
 .prototype-btn a:hover{
-    background-color: #2b3ac2;
+    background-color: #2b83c2;
     transition: .1s;
 }
 .prototype-btn-mobile{
@@ -174,7 +174,7 @@
     border-radius: 2px;
 }
 .prototype-btn-mobile a:hover{
-    background-color: #2b3ac2;
+    background-color: #2b83c2;
     transition: .1s;
 }
 /*portfolio css end*/

@@ -104,8 +104,8 @@
     font-size: 20px;
 }
 .learn-more .btn1:hover{
-    background-color: #2b3ac2;
-    border-color: #2b3ac2;
+    background-color: #2b83c2;
+    border-color: #2b83c2;
     color: var(--brand--color--2);
     transition: .1s;
 }
