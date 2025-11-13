@@ -150,11 +150,11 @@
     color: white;
     background-color: var(--brand--color--3);
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 .prototype-btn a:hover{
-    background-color: var(--brand--color--3);
-    transition: .4s;
+    background-color: #2b3ac2;
+    transition: .1s;
 }
 .prototype-btn-mobile{
     display: flex;
@@ -171,11 +171,11 @@
     color: white;
     background-color: var(--brand--color--3);
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 .prototype-btn-mobile a:hover{
-    background-color: var(--brand--color--3);
-    transition: .4s;
+    background-color: #2b3ac2;
+    transition: .1s;
 }
 /*portfolio css end*/
 

@@ -46,7 +46,7 @@
     text-align: left;
     letter-spacing: 1px;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 280;
     margin-bottom: 10px;  
     width: 100%;  
 }
@@ -63,23 +63,26 @@
     display: flex;
     cursor: pointer;
     color: var(--brand--color--2);
-    font-size: 20px;
-    padding: 10px 25px 10px 25px;
+    font-size: 19px;
+    padding: 8px 20px 8px 20px;
     background-color: orange;
     border-radius: 5px;
     margin-top: 0px;
 }
 .about-msg2 .services-btn a:hover{
     background-color: orangered;
-    transition: .4s
+    transition: .1s
 }
 /*about css end*/
 
 @media only screen and (max-width: 1140px) {
+    .about2{
+        height: auto;
+    }
     .about-inner-container2{
        flex-direction: column;
        justify-content: center;
-       
+       height: auto;
     }
     .about-msg2{
         align-items: flex-start;
@@ -104,7 +107,7 @@
 }
 @media only screen and (max-width: 840px){
     .about2{
-        height: 950px;
+        height: auto;
     }
     .about-inner-container2{
         margin: 0% 8% 0% 8%;

@@ -160,6 +160,9 @@
     transition: all 0.3s ease;
     animation: pulse .8s linear infinite;
 }
+.chatbot-toggler:hover{
+    background-color: orangered;
+}
 .chatbot-toggler i{
     position: absolute;
     color: var(--brand--color--2);

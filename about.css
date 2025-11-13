@@ -86,11 +86,11 @@
 /*responsive about css start*/
 @media only screen and (max-width: 1140px) {
     .about{
-        height: 100vh;
+        height: auto;
     }
     .about-inner-container{
         flex-direction: column-reverse;
-        height: 100vh;
+        height: auto;
         padding-bottom: 50px;
     }
     .about-msg{

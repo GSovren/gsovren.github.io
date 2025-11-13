@@ -45,12 +45,12 @@
 }
 .contact-links i{
     font-size: 100px;
-    color: rgba(255, 183, 0, 0.8);
+    color: orange;
     font-weight: 100;
     
 }
 .contact-links i:hover{
-    color: orange;
+    color: orangered;
     transition: .4s;
 }
 .contact-details{
@@ -64,7 +64,7 @@
     justify-content: space-evenly;
     border-radius: 10px;
     padding: 10px 15px 20px 15px;
-    background-color: var(--brand--color--2);
+    background-color: rgba(125, 199, 255, 0.843);
     box-shadow: 0px 4px 20px var(--brand--color--1);
 }
 .contact-form form{
@@ -74,7 +74,7 @@
     justify-content: center;
 }
 .contact-form h3{
-    color: black;
+    color: var(--brand--color--2);
     font-size: 18px;
     padding: 10px 10px 10px 0px;
 }
@@ -112,11 +112,11 @@
     border: none;
     padding: 8px;
     color: var(--brand--color--2);
-    background-color: var(--brand--color--3);
+    background-color: #121747;
 }
 .contact-form form button:hover{
-    background-color: var(--brand--color--1);
-    transition: .4s;
+    background-color: #2b3ac2;
+    transition: .1s;
 }
 
 /*contact css end*/
@@ -129,6 +129,7 @@
     }
     .contact-inner-container{
         flex-direction: column;
+        margin: 0% 8% 0% 8%;  
     }
     .contact-msg span{
         font-size: 34px;
@@ -146,6 +147,7 @@
     .contact-form{
         border-radius: 10px;
         padding: 0px 15px 10px 15px;
+        width: 100%;
     }
     .contact-form form{
         display: flex;
@@ -157,7 +159,7 @@
     }
     .contact-form form input{
         padding: 10px;
-        width: 250px;
+        width: 100%;
         border-radius: 5px;
         border-style: solid;
         border-width: 1px;

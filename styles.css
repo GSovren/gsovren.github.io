@@ -18,7 +18,7 @@ body{
 }
 :root{
     --brand--color--1: #0CC0DF;
-    --brand--color--2: #FFFFFF;
+    --brand--color--2: #e5e5e5;
     --brand--color--3: #3498db;
 }
 
@@ -170,10 +170,10 @@ body{
     border: solid 2px orange;
 }
 .links-container .cv-link a:hover{
-    background-color: orange;
+    background-color: orangered;
     color: var(--brand--color--2);
-    border-color: orange;
-    transition: .4s;   
+    border-color: orangered;
+    transition: .1s;   
 }
 .navbar.scrolled .drop-menu i{
     color: white;
@@ -256,8 +256,10 @@ body{
         transition: 0.1s;
     }
     .navbar.scrolled .cv-link a{
-        color: black;
-        border: solid 2px black;
+        font-size: 17px;
+        border: solid 2px orange;
+        margin: 0px 0px 0px 0px;
+        padding: 7px 15px 7px 15px;
     }
     .links-container .cv-link{
         margin: 10px 3px 0px 3px;
@@ -266,7 +268,10 @@ body{
         justify-content: center;
     }
     .links-container .cv-link a{
+        font-size: 17px;
+        border: solid 2px orange;
         margin: 0px 0px 0px 0px;
+        padding: 7px 15px 7px 15px;
     }
     .drop-menu i{
         display: block;
@@ -347,7 +352,7 @@ body{
     justify-content: center;
     align-content: center;
     color: var(--brand--color--2);
-    background-color: var(--brand--color--3);
+    background-color: black;
 }
 .copyright p{
     font-size: 14px;
