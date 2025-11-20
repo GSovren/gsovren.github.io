@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
+    padding-bottom: 20px;
 }
 .about-inner-container2{
     display: flex;

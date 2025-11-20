@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="about2.css">
     <link rel="stylesheet" href="services.css">
     <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="portfolio mockup.css">
+    <!-- <link rel="stylesheet" href="portfolio mockup.css"> -->
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="lightbox.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -68,7 +68,7 @@
                         <div class="nav-links-wrapper">
                             <div >
                                 <label for="sidebar-active" class="close-menu" >
-                                    <i class="ri-close-large-line"></i>
+                                    <i class="ri-close-circle-fill"></i>
                                 </label>   
                             </div>
                             <div class="links-container">
@@ -100,7 +100,7 @@
         <section id="home">
             <div class="hero" id="home">
     
-                <div class="image-overlay">
+                <div class="hero-over">
                     <div class="inner-hero-container">
                         <h1><span class="auto-type"></span></h1><br>
                         <div class="greet-msg">
@@ -114,7 +114,7 @@
                         <a class="btn2" href="#contact">Let's work together</a>
                     </div>
                 </div>
-                <div class="image-overlay-2">
+                <div class="hero-over-2">
                      <img src="images/ProfilePicture (1).png" alt="">
                 </div>
             </div>
@@ -153,8 +153,8 @@
                     <div class="about-msg2">
                         <h1>What Can You Expect From Me?</h1><br>
                         <p>Open communication, insightful interactions, attention to detail, and all round <span>positive energy</span>.
-                            I'm capable of designing and developing responsive web systems using React.js or Vue.js web framworks,
-                             and then connecting with a backend database for storage and processing.
+                            I'm capable of designing and developing responsive web systems using React or Vue,
+                            intergrating with APIs and connecting with backend databases.
                             </p><br>
                         <div class="services-btn">
                             <a href="#services">My Services</a>
@@ -209,11 +209,113 @@
         </section>
        <!--Services end-->
 
+       <!--Download CV start-->
+        <section id="download">
+            <div class="download-cv">
+                <p>Dowlowd my Resume/CV for more details.</p>
+                <div class="download-btn">
+                    <a href="Stewart Ngozo CV.pdf" target="_blank" rel="noopener" rel="noreferrer">Download&nbsp;&nbsp;<i class="ri-download-2-line"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--Download CV end-->
+
         <!--Portfolio start -->
         <div class="portfolio" id="portfolio">
-            <h1>Web Apps</h1>
-            <div class="scroll-buttons">
-                <button class="scroll-left" data-target="#webAppsContainer"><i class="ri-arrow-left-circle-fill"></i></button>
+            <div class="portfolio-header">
+                Portfolio
+            </div>
+            <div class="portfolio-cards-container">
+                <div class="card" id="graphics-card">
+                    <div class="card-inner">
+                        Graphic Designs <img src="images/14-Photoroom.png" alt="">
+                    </div>
+                    <div class="img-overlay">
+                        <div class="explore-portfolio">Explore</div>
+                    </div>
+                    <div class="description">
+                        Explore Logos, flyers and digital marketing material
+                    </div>
+                </div>
+                
+                <div class="card" id="ui-ux-card">
+                    <div class="card-inner">
+                      Web  UI/UX Design <img src="images/15-Photoroom.png" alt="">
+                    </div> 
+                    <div class="img-overlay">
+                        <div class="explore-portfolio">Explore</div>
+                    </div>
+                    <div class="description">
+                        Explore UI/UX designs for various web projects 
+                    </div>
+                </div>
+
+                <div class="card" id="ui-mobile-card">
+                    <div class="card-inner">
+                       Mobile UI/UX Design <img src="images/16-Photoroom.png" alt="">
+                    </div> 
+                    <div class="img-overlay">
+                        <div class="explore-portfolio">Explore</div>
+                    </div>
+                    <div class="description">
+                        Explore UI/UX designs for various mobile app projects 
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="scroll-buttons" id="my-graphic-designs">
+                <div class="scroll-icons">
+                    <button class="scroll-left" data-target="#logosContainer"><i class="ri-arrow-left-circle-fill"></i>scroll</button>
+                    Graphic Designs
+                    <button class="scroll-right" data-target="#logosContainer">scroll<i class="ri-arrow-right-circle-fill"></i></button>
+                </div>
+                
+                <div class="inner-portfolio-container" id="logosContainer">
+                    <div class="project-l">
+                        <a href="images/logo1.png" data-lightbox="projects" data-title="">
+                            <img src="images/logo1.png" class="portfolio-img" alt="">
+                        </a>
+                    </div>
+
+                    <div class="project-l">
+                        <a href="images/logo4.png" data-lightbox="projects" data-title="">
+                            <img src="images/logo4.png" class="portfolio-img" alt="">
+                            
+                        </a>
+                    </div>
+
+                    <div class="project-l">
+                        <a href="images/logo2.png" data-lightbox="projects" data-title="">
+                            <img src="images/logo2.png" class="portfolio-img" alt="">
+                            
+                        </a>
+                    </div>
+
+                    <div class="project-l">
+                        <a href="images/logo3.png" data-lightbox="projects" data-title="">
+                            <img src="images/logo3.png" class="portfolio-img" alt="">
+                            
+                        </a>
+                    </div>
+
+                    <div class="project-l">
+                        <a href="images/logo5.png" data-lightbox="projects" data-title="">
+                            <img src="images/logo5.png" class="portfolio-img" alt="">
+                            
+                        </a>
+                    </div>
+                </div>    
+            </div>
+
+
+            <div class="scroll-buttons my-ui-designs">
+                <div class="scroll-icons">
+                    <button class="scroll-left" data-target="#webAppsContainer"><i class="ri-arrow-left-circle-fill"></i>scroll</button>
+                    Web UI/UX
+                    <button class="scroll-right" data-target="#webAppsContainer">scroll<i class="ri-arrow-right-circle-fill"></i></button>
+                </div>
                     <div class="inner-portfolio-container" id="webAppsContainer">
                         <div class="web1">
                             <a href="images/Infrasecure app.png" data-lightbox="projects" data-title="Blog Website UI">
@@ -251,14 +353,6 @@
                                 <a href="https://xd.adobe.com/view/63b4066f-a6ca-43e0-b7bd-c044a799a044-36e7/?fullscreen&hints=off" target="_blank" rel="noopener" rel="noreferrer">View Prototype</a>
                             </div>
                         </div>
-                    </div>
-                <button class="scroll-right" data-target="#webAppsContainer"><i class="ri-arrow-right-circle-fill"></i></button>
-            </div>
-
-            <h1>Dashboards</h1>
-            <div class="scroll-buttons">
-                <button class="scroll-left" data-target="#dashboardsContainer"><i class="ri-arrow-left-circle-fill"></i></button>
-                    <div class="inner-portfolio-container" id="dashboardsContainer">
                         <div class="web3">
                             <a href="images/Mefmi dash .png" data-lightbox="projects" data-title="Debt Statistics Dashboard">
                                 <img src="images/Mefmi dash .png" alt="">
@@ -301,13 +395,18 @@
                             </a>
                             <h2>Customer & Order Notifications<br>(React.js, Antd UI library)</h2><br>
                         </div>
-                    </div><br>   
-                <button class="scroll-right" data-target="#dashboardsContainer"><i class="ri-arrow-right-circle-fill"></i></button>
+                    </div>
+                    
             </div>
 
-            <h1>Mobile Apps</h1>
-            <div class="scroll-buttons">
-                <button class="scroll-left" data-target="#mobileAppsContainer"><i class="ri-arrow-left-circle-fill"></i></button>
+
+
+            <div class="scroll-buttons my-mobile-designs">
+                <div class="scroll-icons">
+                    <button class="scroll-left" data-target="#mobileAppsContainer"><i class="ri-arrow-left-circle-fill"></i>scroll</button>
+                    Modile UI/UX
+                    <button class="scroll-right" data-target="#mobileAppsContainer">scroll<i class="ri-arrow-right-circle-fill"></i></button>
+                </div>
                     <div class="inner-portfolio-container" id="mobileAppsContainer">
                         <div class="web-mobile">
                             <a href="images/Onboarding 1.jpeg" data-lightbox="projects" data-title="Security App UI">
@@ -364,7 +463,6 @@
                             </div>
                         </div>
                     </div>    
-                <button class="scroll-right" data-target="#mobileAppsContainer"><i class="ri-arrow-right-circle-fill"></i></button>
             </div>
 
         </div>
@@ -615,19 +713,6 @@
         <!--Portfolio mockup end-->
 
 
-
-
-        <!--Download CV start-->
-        <section id="download">
-            <div class="download-cv">
-                <p>Dowlowd my Resume/CV for more details.</p>
-                <div class="download-btn">
-                    <a href="Stewart Ngozo CV.pdf" target="_blank" rel="noopener" rel="noreferrer">Download&nbsp;&nbsp;<i class="ri-download-2-line"></i></a>
-                </div>
-            </div>
-        </section>
-        <!--Download CV end-->
-
         <!--Contact start-->
         <section id="contact">
             <div class="contact" id="contact">
@@ -637,8 +722,9 @@
                             Don't Hesitate,<br>
                         </p>Get In Touch.<br>
                         <div class="contact-links">
-                            <a href=""><i class="ri-mail-fill"></i></a>
                             <a href="https://www.linkedin.com/in/stewart-ngozo/" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-linkedin-box-fill"></i></a>
+                            <a href="https://github.com/GSovren" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-github-fill"></i></a>
+                            <a href=""><i class="ri-mail-fill"></i></a>
                             <a href=""><i class="ri-whatsapp-fill"></i></a>
                         </div>
                     </div>
